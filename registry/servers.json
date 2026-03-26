@@ -9,9 +9,17 @@
     "args": [
       "-y",
       "@modelcontextprotocol/server-filesystem",
-      { "name": "allowed-path", "description": "Directory path to allow access to", "required": true }
+      {
+        "name": "allowed-path",
+        "description": "Directory path to allow access to",
+        "required": true
+      }
     ],
-    "tags": ["files", "local", "official"],
+    "tags": [
+      "files",
+      "local",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
   },
@@ -22,8 +30,15 @@
     "author": "modelcontextprotocol",
     "category": "git",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-github"],
-    "tags": ["github", "git", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-github"
+    ],
+    "tags": [
+      "github",
+      "git",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github"
   },
@@ -37,9 +52,18 @@
     "args": [
       "-y",
       "@modelcontextprotocol/server-postgres",
-      { "name": "connection-string", "description": "PostgreSQL connection string (e.g. postgresql://user:pass@localhost/db)", "required": true }
+      {
+        "name": "connection-string",
+        "description": "PostgreSQL connection string (e.g. postgresql://user:pass@localhost/db)",
+        "required": true
+      }
     ],
-    "tags": ["postgres", "sql", "database", "official"],
+    "tags": [
+      "postgres",
+      "sql",
+      "database",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
   },
@@ -53,9 +77,18 @@
     "args": [
       "-y",
       "@modelcontextprotocol/server-sqlite",
-      { "name": "db-path", "description": "Path to the SQLite database file", "required": true }
+      {
+        "name": "db-path",
+        "description": "Path to the SQLite database file",
+        "required": true
+      }
     ],
-    "tags": ["sqlite", "sql", "database", "official"],
+    "tags": [
+      "sqlite",
+      "sql",
+      "database",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
   },
@@ -66,8 +99,15 @@
     "author": "modelcontextprotocol",
     "category": "web",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-brave-search"],
-    "tags": ["search", "web", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-brave-search"
+    ],
+    "tags": [
+      "search",
+      "web",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search"
   },
@@ -78,8 +118,16 @@
     "author": "modelcontextprotocol",
     "category": "web",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-fetch"],
-    "tags": ["web", "http", "markdown", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-fetch"
+    ],
+    "tags": [
+      "web",
+      "http",
+      "markdown",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
   },
@@ -90,8 +138,15 @@
     "author": "modelcontextprotocol",
     "category": "productivity",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-memory"],
-    "tags": ["memory", "knowledge-graph", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory"
+    ],
+    "tags": [
+      "memory",
+      "knowledge-graph",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
   },
@@ -102,8 +157,16 @@
     "author": "modelcontextprotocol",
     "category": "browser-automation",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-puppeteer"],
-    "tags": ["browser", "puppeteer", "automation", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-puppeteer"
+    ],
+    "tags": [
+      "browser",
+      "puppeteer",
+      "automation",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer"
   },
@@ -114,8 +177,15 @@
     "author": "modelcontextprotocol",
     "category": "productivity",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-slack"],
-    "tags": ["slack", "messaging", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack"
+    ],
+    "tags": [
+      "slack",
+      "messaging",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack"
   },
@@ -126,8 +196,16 @@
     "author": "modelcontextprotocol",
     "category": "web",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-google-maps"],
-    "tags": ["maps", "geocoding", "google", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps"
+    ],
+    "tags": [
+      "maps",
+      "geocoding",
+      "google",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
   },
@@ -138,8 +216,15 @@
     "author": "modelcontextprotocol",
     "category": "productivity",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
-    "tags": ["reasoning", "thinking", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking"
+    ],
+    "tags": [
+      "reasoning",
+      "thinking",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking"
   },
@@ -153,9 +238,17 @@
     "args": [
       "mcp-server-git",
       "--repository",
-      { "name": "repo-path", "description": "Path to the git repository", "required": true }
+      {
+        "name": "repo-path",
+        "description": "Path to the git repository",
+        "required": true
+      }
     ],
-    "tags": ["git", "version-control", "official"],
+    "tags": [
+      "git",
+      "version-control",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git"
   },
@@ -166,8 +259,15 @@
     "author": "modelcontextprotocol",
     "category": "productivity",
     "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-time"],
-    "tags": ["time", "timezone", "official"],
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-time"
+    ],
+    "tags": [
+      "time",
+      "timezone",
+      "official"
+    ],
     "stars": 8200,
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time"
   },
@@ -178,8 +278,14 @@
     "author": "getsentry",
     "category": "development",
     "command": "uvx",
-    "args": ["mcp-server-sentry"],
-    "tags": ["sentry", "errors", "monitoring"],
+    "args": [
+      "mcp-server-sentry"
+    ],
+    "tags": [
+      "sentry",
+      "errors",
+      "monitoring"
+    ],
     "url": "https://github.com/getsentry/sentry-mcp"
   },
   {
@@ -189,8 +295,15 @@
     "author": "linear",
     "category": "productivity",
     "command": "npx",
-    "args": ["-y", "@linear/mcp-server"],
-    "tags": ["linear", "issues", "project-management"],
+    "args": [
+      "-y",
+      "@linear/mcp-server"
+    ],
+    "tags": [
+      "linear",
+      "issues",
+      "project-management"
+    ],
     "url": "https://github.com/linear/linear-mcp"
   },
   {
@@ -200,8 +313,15 @@
     "author": "stripe",
     "category": "web",
     "command": "npx",
-    "args": ["-y", "@stripe/mcp"],
-    "tags": ["stripe", "payments", "billing"],
+    "args": [
+      "-y",
+      "@stripe/mcp"
+    ],
+    "tags": [
+      "stripe",
+      "payments",
+      "billing"
+    ],
     "url": "https://github.com/stripe/agent-toolkit"
   },
   {
@@ -211,8 +331,15 @@
     "author": "makenotion",
     "category": "productivity",
     "command": "npx",
-    "args": ["-y", "@notionhq/notion-mcp-server"],
-    "tags": ["notion", "notes", "docs"],
+    "args": [
+      "-y",
+      "@notionhq/notion-mcp-server"
+    ],
+    "tags": [
+      "notion",
+      "notes",
+      "docs"
+    ],
     "url": "https://github.com/makenotion/notion-mcp-server"
   },
   {
@@ -222,8 +349,15 @@
     "author": "redis",
     "category": "databases",
     "command": "npx",
-    "args": ["-y", "mcp-redis"],
-    "tags": ["redis", "cache", "database"],
+    "args": [
+      "-y",
+      "mcp-redis"
+    ],
+    "tags": [
+      "redis",
+      "cache",
+      "database"
+    ],
     "url": "https://github.com/redis/mcp-redis"
   },
   {
@@ -233,8 +367,15 @@
     "author": "microsoft",
     "category": "browser-automation",
     "command": "npx",
-    "args": ["-y", "@playwright/mcp"],
-    "tags": ["playwright", "browser", "testing"],
+    "args": [
+      "-y",
+      "@playwright/mcp"
+    ],
+    "tags": [
+      "playwright",
+      "browser",
+      "testing"
+    ],
     "url": "https://github.com/microsoft/playwright-mcp"
   },
   {
@@ -244,8 +385,4814 @@
     "author": "docker",
     "category": "development",
     "command": "docker",
-    "args": ["run", "-i", "--rm", "mcp/docker"],
-    "tags": ["docker", "containers", "devops"],
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "mcp/docker"
+    ],
+    "tags": [
+      "docker",
+      "containers",
+      "devops"
+    ],
     "url": "https://github.com/docker/mcp-servers"
+  },
+  {
+    "id": "context7",
+    "name": "Context7",
+    "description": "Provides up-to-date, version-specific documentation and code examples for any library or framework directly in your LLM context.",
+    "author": "upstash",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@upstash/context7-mcp"
+    ],
+    "tags": [
+      "documentation",
+      "libraries",
+      "frameworks",
+      "code-examples"
+    ],
+    "stars": 46978,
+    "url": "https://github.com/upstash/context7"
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl MCP",
+    "description": "Advanced web scraping and crawling that converts any website into LLM-friendly markdown with JavaScript rendering and batch processing.",
+    "author": "firecrawl",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "firecrawl-mcp"
+    ],
+    "tags": [
+      "web-scraping",
+      "crawling",
+      "markdown",
+      "extraction"
+    ],
+    "stars": 6622,
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server"
+  },
+  {
+    "id": "exa",
+    "name": "Exa Search",
+    "description": "AI-optimized web search engine providing real-time results, GitHub code context, and deep research capabilities via the Exa API.",
+    "author": "exa-labs",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "exa-mcp-server"
+    ],
+    "tags": [
+      "search",
+      "web",
+      "research",
+      "real-time"
+    ],
+    "url": "https://github.com/exa-labs/exa-mcp-server"
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily Search",
+    "description": "Real-time web search and content extraction optimized for AI agents with crawling and site mapping capabilities.",
+    "author": "tavily-ai",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "tavily-mcp@0.1.4"
+    ],
+    "tags": [
+      "search",
+      "web",
+      "crawling",
+      "extraction"
+    ],
+    "url": "https://github.com/tavily-ai/tavily-mcp"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase MCP",
+    "description": "Full Supabase integration for creating tables, querying data, applying migrations, and deploying edge functions.",
+    "author": "supabase-community",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@supabase/mcp-server-supabase@latest"
+    ],
+    "tags": [
+      "database",
+      "postgresql",
+      "backend",
+      "serverless"
+    ],
+    "url": "https://github.com/supabase-community/supabase-mcp"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare MCP",
+    "description": "Deploy, configure, and manage Cloudflare resources including Workers, KV, R2, D1, and DNS via natural language.",
+    "author": "cloudflare",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cloudflare/mcp-server-cloudflare"
+    ],
+    "tags": [
+      "cloudflare",
+      "workers",
+      "serverless",
+      "edge",
+      "cdn"
+    ],
+    "url": "https://github.com/cloudflare/mcp-server-cloudflare"
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana MCP",
+    "description": "Search dashboards, investigate incidents, and query metrics, logs, and traces in Grafana observability platform.",
+    "author": "grafana",
+    "category": "monitoring",
+    "command": "uvx",
+    "args": [
+      "mcp-grafana"
+    ],
+    "tags": [
+      "monitoring",
+      "dashboards",
+      "observability",
+      "metrics",
+      "grafana"
+    ],
+    "url": "https://github.com/grafana/mcp-grafana"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform MCP",
+    "description": "Interact with Terraform Registry to manage infrastructure as code, modules, providers, and HCP Terraform workspaces.",
+    "author": "hashicorp",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hashicorp/terraform-mcp-server"
+    ],
+    "tags": [
+      "terraform",
+      "infrastructure",
+      "devops",
+      "iac"
+    ],
+    "url": "https://github.com/hashicorp/terraform-mcp-server"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes MCP",
+    "description": "Manage Kubernetes and OpenShift clusters with native Go-based API integration for pods, deployments, and services.",
+    "author": "containers",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "kubernetes-mcp-server@latest"
+    ],
+    "tags": [
+      "kubernetes",
+      "containers",
+      "orchestration",
+      "devops",
+      "k8s"
+    ],
+    "url": "https://github.com/containers/kubernetes-mcp-server"
+  },
+  {
+    "id": "atlassian",
+    "name": "Atlassian MCP",
+    "description": "Comprehensive integration with Atlassian suite including Confluence pages and Jira issues via REST API.",
+    "author": "sooperset",
+    "category": "productivity",
+    "command": "uvx",
+    "args": [
+      "mcp-atlassian"
+    ],
+    "tags": [
+      "jira",
+      "confluence",
+      "atlassian",
+      "project-management"
+    ],
+    "url": "https://github.com/sooperset/mcp-atlassian"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB MCP",
+    "description": "Bridge between MongoDB databases and AI agents for querying and analyzing document collections via natural language.",
+    "author": "mongodb-js",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mongodb-mcp-server"
+    ],
+    "tags": [
+      "mongodb",
+      "nosql",
+      "database",
+      "documents"
+    ],
+    "url": "https://github.com/mongodb-js/mongodb-mcp-server"
+  },
+  {
+    "id": "neon",
+    "name": "Neon Database MCP",
+    "description": "Natural language interactions with Neon serverless PostgreSQL for database management and query execution.",
+    "author": "neondatabase",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@neondatabase/mcp-server-neon"
+    ],
+    "tags": [
+      "postgresql",
+      "serverless",
+      "database",
+      "neon"
+    ],
+    "url": "https://github.com/neondatabase/mcp-server-neon"
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB MCP",
+    "description": "DuckDB in-process analytical database integration with schema inspection and query capabilities for data analysis.",
+    "author": "ktanaka101",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-server-duckdb",
+      "--db-path",
+      {
+        "name": "db-path",
+        "description": "Path to DuckDB database file",
+        "required": true
+      }
+    ],
+    "tags": [
+      "duckdb",
+      "analytics",
+      "database",
+      "sql",
+      "olap"
+    ],
+    "url": "https://github.com/ktanaka101/mcp-server-duckdb"
+  },
+  {
+    "id": "excel",
+    "name": "Excel MCP",
+    "description": "Manipulate Excel workbooks including data operations, worksheet management, formatting, and chart creation without Microsoft Excel.",
+    "author": "haris-musa",
+    "category": "files",
+    "command": "uvx",
+    "args": [
+      "excel-mcp-server"
+    ],
+    "tags": [
+      "excel",
+      "spreadsheet",
+      "office",
+      "data",
+      "xlsx"
+    ],
+    "url": "https://github.com/haris-musa/excel-mcp-server"
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable MCP",
+    "description": "Read and write access to Airtable databases with schema inspection and record management capabilities.",
+    "author": "domdomegg",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "airtable-mcp-server"
+    ],
+    "tags": [
+      "airtable",
+      "database",
+      "spreadsheet",
+      "no-code"
+    ],
+    "url": "https://github.com/domdomegg/airtable-mcp-server"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake MCP",
+    "description": "Snowflake data cloud integration with read/write capabilities, schema exploration, and insight tracking.",
+    "author": "isaacwasserman",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-snowflake-server"
+    ],
+    "tags": [
+      "snowflake",
+      "data-warehouse",
+      "analytics",
+      "sql"
+    ],
+    "url": "https://github.com/isaacwasserman/mcp-snowflake-server"
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL MCP",
+    "description": "MySQL database integration with configurable access controls for schema inspection and query execution.",
+    "author": "designcomputer",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mysql-mcp-server"
+    ],
+    "tags": [
+      "mysql",
+      "database",
+      "sql",
+      "relational"
+    ],
+    "url": "https://github.com/designcomputer/mysql_mcp_server"
+  },
+  {
+    "id": "bigquery",
+    "name": "BigQuery MCP",
+    "description": "Google BigQuery integration with schema inspection, read-only SQL query execution, and large-scale analytics.",
+    "author": "LucasHild",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-server-bigquery"
+    ],
+    "tags": [
+      "bigquery",
+      "google",
+      "analytics",
+      "data-warehouse",
+      "sql"
+    ],
+    "url": "https://github.com/LucasHild/mcp-server-bigquery"
+  },
+  {
+    "id": "qdrant",
+    "name": "Qdrant MCP",
+    "description": "Vector search engine integration for keeping and retrieving semantic memories and embeddings.",
+    "author": "qdrant",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-server-qdrant"
+    ],
+    "tags": [
+      "vector-database",
+      "embeddings",
+      "semantic-search",
+      "memory"
+    ],
+    "url": "https://github.com/qdrant/mcp-server-qdrant"
+  },
+  {
+    "id": "google-drive",
+    "name": "Google Drive MCP",
+    "description": "Google Drive integration for file access, search, creation, and management via the Google API.",
+    "author": "modelcontextprotocol",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-gdrive"
+    ],
+    "tags": [
+      "google-drive",
+      "files",
+      "cloud-storage",
+      "google"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive"
+  },
+  {
+    "id": "aws-kb-retrieval",
+    "name": "AWS Knowledge Base Retrieval MCP",
+    "description": "Retrieves content from AWS Knowledge Bases via Amazon Bedrock for RAG-powered AI workflows.",
+    "author": "modelcontextprotocol",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval"
+    ],
+    "tags": [
+      "aws",
+      "bedrock",
+      "knowledge-base",
+      "rag"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval"
+  },
+  {
+    "id": "everything-search",
+    "name": "Everything Search MCP",
+    "description": "Lightning-fast Windows file search powered by the Everything SDK for instant file location and indexing.",
+    "author": "mamertofabian",
+    "category": "files",
+    "command": "uvx",
+    "args": [
+      "mcp-everything-search"
+    ],
+    "tags": [
+      "windows",
+      "file-search",
+      "search",
+      "filesystem"
+    ],
+    "url": "https://github.com/mamertofabian/mcp-everything-search"
+  },
+  {
+    "id": "desktop-commander",
+    "name": "Desktop Commander MCP",
+    "description": "Full desktop automation with terminal commands, file editing, process management, and SSH remote access.",
+    "author": "wonderwhy-er",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@wonderwhy-er/desktop-commander"
+    ],
+    "tags": [
+      "terminal",
+      "automation",
+      "files",
+      "ssh",
+      "desktop"
+    ],
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+  },
+  {
+    "id": "browserbase",
+    "name": "Browserbase MCP",
+    "description": "Cloud browser automation with screenshots, JavaScript execution, and multi-tab session management.",
+    "author": "browserbase",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@browserbasehq/mcp-browserbase"
+    ],
+    "tags": [
+      "browser",
+      "automation",
+      "cloud",
+      "screenshots",
+      "javascript"
+    ],
+    "url": "https://github.com/browserbase/mcp-server-browserbase"
+  },
+  {
+    "id": "playwright-ms",
+    "name": "Playwright MCP (Microsoft)",
+    "description": "Browser automation and web testing via Playwright with full accessibility tree interaction and screenshot capture.",
+    "author": "microsoft",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@playwright/mcp@latest"
+    ],
+    "tags": [
+      "playwright",
+      "browser",
+      "automation",
+      "testing",
+      "microsoft"
+    ],
+    "url": "https://github.com/microsoft/playwright-mcp"
+  },
+  {
+    "id": "chrome-devtools",
+    "name": "Chrome DevTools MCP",
+    "description": "Direct Chrome browser control through DevTools protocol for web debugging, performance analysis, and security testing.",
+    "author": "ChromeDevTools",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@chrome-devtools/mcp"
+    ],
+    "tags": [
+      "chrome",
+      "devtools",
+      "debugging",
+      "browser",
+      "frontend"
+    ],
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+  },
+  {
+    "id": "figma-context",
+    "name": "Figma Context MCP",
+    "description": "Access Figma design files, components, and prototypes to enable AI-driven code generation from designs.",
+    "author": "GLips",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "figma-developer-mcp",
+      "--figma-api-key",
+      {
+        "name": "figma-api-key",
+        "description": "Your Figma API key",
+        "required": true
+      }
+    ],
+    "tags": [
+      "figma",
+      "design",
+      "ui",
+      "components"
+    ],
+    "url": "https://github.com/GLips/Figma-Context-MCP"
+  },
+  {
+    "id": "e2b",
+    "name": "E2B Code Sandbox MCP",
+    "description": "Secure cloud development environments for executing code in isolated sandboxes for AI agent workflows.",
+    "author": "e2b-dev",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@e2b/mcp-server"
+    ],
+    "tags": [
+      "code-execution",
+      "sandbox",
+      "cloud",
+      "security"
+    ],
+    "url": "https://github.com/e2b-dev/mcp-server"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian MCP",
+    "description": "Interact with Obsidian knowledge base via REST API to read, write, and search notes and vaults.",
+    "author": "MarkusPfundstein",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-obsidian"
+    ],
+    "tags": [
+      "obsidian",
+      "notes",
+      "knowledge-base",
+      "markdown",
+      "pkm"
+    ],
+    "url": "https://github.com/MarkusPfundstein/mcp-obsidian"
+  },
+  {
+    "id": "apple-mcp",
+    "name": "Apple MCP",
+    "description": "Interact with Apple Messages, Notes, Contacts, Reminders, and Mail via natural language on macOS.",
+    "author": "Dhravya",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "apple-mcp"
+    ],
+    "tags": [
+      "apple",
+      "macos",
+      "messages",
+      "notes",
+      "contacts",
+      "imessage"
+    ],
+    "url": "https://github.com/Dhravya/apple-mcp"
+  },
+  {
+    "id": "google-workspace",
+    "name": "Google Workspace MCP",
+    "description": "Unified access to Google Calendar, Drive, Gmail, Docs, Sheets, and Slides for productivity automation.",
+    "author": "taylorwilsdon",
+    "category": "productivity",
+    "command": "uvx",
+    "args": [
+      "google-workspace-mcp"
+    ],
+    "tags": [
+      "google",
+      "gmail",
+      "calendar",
+      "drive",
+      "docs",
+      "workspace"
+    ],
+    "url": "https://github.com/taylorwilsdon/google_workspace_mcp"
+  },
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp MCP",
+    "description": "Personal WhatsApp messaging integration with search, read, and send capabilities for AI assistants.",
+    "author": "lharries",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "whatsapp-mcp"
+    ],
+    "tags": [
+      "whatsapp",
+      "messaging",
+      "communication",
+      "chat"
+    ],
+    "url": "https://github.com/lharries/whatsapp-mcp"
+  },
+  {
+    "id": "line-bot",
+    "name": "LINE Bot MCP",
+    "description": "Integrates the LINE Messaging API to connect AI agents to LINE Official Accounts for message management.",
+    "author": "line",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@line/line-bot-mcp-server"
+    ],
+    "tags": [
+      "line",
+      "messaging",
+      "bot",
+      "japan",
+      "communication"
+    ],
+    "url": "https://github.com/line/line-bot-mcp-server"
+  },
+  {
+    "id": "ntfy",
+    "name": "ntfy MCP",
+    "description": "Send and fetch push notifications via ntfy self-hosted or cloud notification server.",
+    "author": "gitmotion",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "ntfy-me-mcp"
+    ],
+    "tags": [
+      "notifications",
+      "push",
+      "self-hosted",
+      "ntfy"
+    ],
+    "url": "https://github.com/gitmotion/ntfy-me-mcp"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n MCP",
+    "description": "Workflow automation integration for n8n with conversational access to 525+ nodes including AI capabilities.",
+    "author": "leonardsellem",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "n8n-mcp-server"
+    ],
+    "tags": [
+      "n8n",
+      "automation",
+      "workflow",
+      "integration",
+      "no-code"
+    ],
+    "url": "https://github.com/leonardsellem/n8n-mcp-server"
+  },
+  {
+    "id": "arxiv",
+    "name": "ArXiv MCP",
+    "description": "Search and access academic research papers from the arXiv preprint repository for scientific research.",
+    "author": "blazickjp",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "arxiv-mcp-server"
+    ],
+    "tags": [
+      "arxiv",
+      "research",
+      "papers",
+      "academic",
+      "science"
+    ],
+    "url": "https://github.com/blazickjp/arxiv-mcp-server"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity MCP",
+    "description": "Real-time web research via Perplexity's Sonar API for fast, cited factual lookups and multi-source research.",
+    "author": "ppl-ai",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "server-perplexity-ask"
+    ],
+    "tags": [
+      "perplexity",
+      "search",
+      "research",
+      "web",
+      "citations"
+    ],
+    "url": "https://github.com/ppl-ai/modelcontextprotocol"
+  },
+  {
+    "id": "ms-365",
+    "name": "Microsoft 365 MCP",
+    "description": "Connects to Microsoft 365 suite using Graph API for Mail, Files, Excel, Calendar, and Teams management.",
+    "author": "softeria",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "ms-365-mcp-server"
+    ],
+    "tags": [
+      "microsoft",
+      "office365",
+      "graph-api",
+      "outlook",
+      "teams"
+    ],
+    "url": "https://github.com/softeria/ms-365-mcp-server"
+  },
+  {
+    "id": "azure-devops",
+    "name": "Azure DevOps MCP",
+    "description": "Official Microsoft server for Azure DevOps repositories, work items, builds, and release pipeline management.",
+    "author": "microsoft",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@microsoft/azure-devops-mcp"
+    ],
+    "tags": [
+      "azure",
+      "devops",
+      "ci-cd",
+      "microsoft",
+      "git",
+      "work-items"
+    ],
+    "url": "https://github.com/microsoft/azure-devops-mcp"
+  },
+  {
+    "id": "blender",
+    "name": "Blender MCP",
+    "description": "3D scene creation, modeling, and manipulation in Blender via natural language through the MCP protocol.",
+    "author": "ahujasid",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "blender-mcp"
+    ],
+    "tags": [
+      "blender",
+      "3d",
+      "modeling",
+      "design",
+      "creative"
+    ],
+    "url": "https://github.com/ahujasid/blender-mcp"
+  },
+  {
+    "id": "pagerduty",
+    "name": "PagerDuty MCP",
+    "description": "Official PagerDuty server for managing incidents, on-call schedules, services, and escalation policies.",
+    "author": "PagerDuty",
+    "category": "monitoring",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@pagerduty/mcp-server"
+    ],
+    "tags": [
+      "pagerduty",
+      "incidents",
+      "on-call",
+      "alerting",
+      "devops"
+    ],
+    "url": "https://github.com/PagerDuty/pagerduty-mcp-server"
+  },
+  {
+    "id": "ableton",
+    "name": "Ableton MCP",
+    "description": "Control Ableton Live for music creation, track management, and audio production via natural language.",
+    "author": "ahujasid",
+    "category": "productivity",
+    "command": "uvx",
+    "args": [
+      "ableton-mcp"
+    ],
+    "tags": [
+      "ableton",
+      "music",
+      "audio",
+      "daw",
+      "production"
+    ],
+    "url": "https://github.com/ahujasid/ableton-mcp"
+  },
+  {
+    "id": "pipedream",
+    "name": "Pipedream MCP",
+    "description": "Connect with 2,500+ APIs and 8,000+ prebuilt tools for workflow automation and API integrations.",
+    "author": "PipedreamHQ",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@pipedream/mcp"
+    ],
+    "tags": [
+      "automation",
+      "api",
+      "workflow",
+      "integration",
+      "pipedream"
+    ],
+    "url": "https://github.com/PipedreamHQ/pipedream"
+  },
+  {
+    "id": "markdownify",
+    "name": "Markdownify MCP",
+    "description": "Convert PDFs, images, audio, web pages, and office documents into clean Markdown format.",
+    "author": "zcaceres",
+    "category": "files",
+    "command": "uvx",
+    "args": [
+      "markdownify-mcp"
+    ],
+    "tags": [
+      "markdown",
+      "pdf",
+      "conversion",
+      "documents",
+      "files"
+    ],
+    "url": "https://github.com/zcaceres/markdownify-mcp"
+  },
+  {
+    "id": "basic-memory",
+    "name": "Basic Memory MCP",
+    "description": "Build and query a semantic knowledge graph from Markdown files for persistent cross-session memory.",
+    "author": "basicmachines-co",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "basic-memory"
+    ],
+    "tags": [
+      "memory",
+      "knowledge-graph",
+      "markdown",
+      "persistence",
+      "rag"
+    ],
+    "url": "https://github.com/basicmachines-co/basic-memory"
+  },
+  {
+    "id": "mcp-memory-service",
+    "name": "MCP Memory Service",
+    "description": "Semantic memory storage and retrieval using ChromaDB vector store for persistent AI agent memory.",
+    "author": "doobidoo",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "mcp-memory-service"
+    ],
+    "tags": [
+      "memory",
+      "chromadb",
+      "vector",
+      "semantic",
+      "embeddings"
+    ],
+    "url": "https://github.com/doobidoo/mcp-memory-service"
+  },
+  {
+    "id": "chart-antv",
+    "name": "AntV Chart MCP",
+    "description": "Generate 15+ types of visual charts and data visualizations using AntV charting libraries.",
+    "author": "antvis",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@antv/mcp-server-chart"
+    ],
+    "tags": [
+      "charts",
+      "visualization",
+      "data",
+      "antv",
+      "graphs"
+    ],
+    "url": "https://github.com/antvis/mcp-server-chart"
+  },
+  {
+    "id": "mobile-mcp",
+    "name": "Mobile MCP",
+    "description": "iOS and Android device automation for app testing, UI interaction, and mobile app scraping.",
+    "author": "mobile-next",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mobilenext/mobile-mcp@latest"
+    ],
+    "tags": [
+      "ios",
+      "android",
+      "mobile",
+      "automation",
+      "testing",
+      "appium"
+    ],
+    "url": "https://github.com/mobile-next/mobile-mcp"
+  },
+  {
+    "id": "godot",
+    "name": "Godot MCP",
+    "description": "Godot engine integration for editing scenes, running the game, debugging, and managing assets via AI.",
+    "author": "Coding-Solo",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@codingsolo/godot-mcp"
+    ],
+    "tags": [
+      "godot",
+      "game-development",
+      "3d",
+      "2d",
+      "editor"
+    ],
+    "url": "https://github.com/Coding-Solo/godot-mcp"
+  },
+  {
+    "id": "unity-mcp",
+    "name": "Unity MCP",
+    "description": "Unity Editor and Runtime integration for scene management, asset operations, and game development.",
+    "author": "IvanMurzak",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "unity-mcp"
+    ],
+    "tags": [
+      "unity",
+      "game-development",
+      "3d",
+      "editor",
+      "c-sharp"
+    ],
+    "url": "https://github.com/IvanMurzak/Unity-MCP"
+  },
+  {
+    "id": "inbox-zero",
+    "name": "Inbox Zero MCP",
+    "description": "AI-powered email management and automation for achieving inbox zero with smart categorization.",
+    "author": "elie222",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@inboxzero/mcp"
+    ],
+    "tags": [
+      "email",
+      "gmail",
+      "productivity",
+      "inbox",
+      "automation"
+    ],
+    "url": "https://github.com/elie222/inbox-zero"
+  },
+  {
+    "id": "lingo-dev",
+    "name": "Lingo.dev MCP",
+    "description": "AI agent localization engine for translating apps, documents, and content across multiple languages.",
+    "author": "lingodotdev",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@lingodotdev/mcp"
+    ],
+    "tags": [
+      "localization",
+      "translation",
+      "i18n",
+      "languages",
+      "ai"
+    ],
+    "url": "https://github.com/lingodotdev/lingo.dev"
+  },
+  {
+    "id": "financial-datasets",
+    "name": "Financial Datasets MCP",
+    "description": "Stock market data API providing financial statements, price history, and market data for AI agents.",
+    "author": "financial-datasets",
+    "category": "finance",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@financial-datasets/mcp-server"
+    ],
+    "tags": [
+      "stocks",
+      "finance",
+      "market-data",
+      "financial",
+      "investing"
+    ],
+    "url": "https://github.com/financial-datasets/mcp-server"
+  },
+  {
+    "id": "solana-agent-kit",
+    "name": "Solana Agent Kit MCP",
+    "description": "Blockchain interaction with 40+ Solana protocol actions including trading, staking, and NFT operations.",
+    "author": "sendaifun",
+    "category": "finance",
+    "command": "npx",
+    "args": [
+      "-y",
+      "solana-agent-kit-mcp"
+    ],
+    "tags": [
+      "solana",
+      "blockchain",
+      "defi",
+      "crypto",
+      "nft",
+      "web3"
+    ],
+    "url": "https://github.com/sendaifun/solana-agent-kit"
+  },
+  {
+    "id": "office-word",
+    "name": "Office Word MCP",
+    "description": "Create, read, and manipulate Microsoft Word documents programmatically without Office installation.",
+    "author": "GongRzhe",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@gongrzhe/mcp-office-word"
+    ],
+    "tags": [
+      "word",
+      "microsoft",
+      "documents",
+      "office",
+      "docx"
+    ],
+    "url": "https://github.com/GongRzhe/Office-Word-MCP-Server"
+  },
+  {
+    "id": "office-powerpoint",
+    "name": "Office PowerPoint MCP",
+    "description": "Create, read, and manipulate PowerPoint presentations programmatically via AI-assisted slide generation.",
+    "author": "GongRzhe",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@gongrzhe/mcp-office-powerpoint"
+    ],
+    "tags": [
+      "powerpoint",
+      "presentations",
+      "office",
+      "microsoft",
+      "pptx"
+    ],
+    "url": "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server"
+  },
+  {
+    "id": "mcp-installer",
+    "name": "MCP Installer",
+    "description": "Meta-server that installs other MCP servers from npm and PyPI registries directly via AI assistant.",
+    "author": "anaisbetts",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@anaisbetts/mcp-installer"
+    ],
+    "tags": [
+      "installer",
+      "meta",
+      "npm",
+      "pypi",
+      "management"
+    ],
+    "url": "https://github.com/anaisbetts/mcp-installer"
+  },
+  {
+    "id": "mcp-proxy",
+    "name": "MCP Proxy",
+    "description": "Remote MCP server interaction via SSE transport for connecting to servers over HTTP.",
+    "author": "sparfenyuk",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-proxy"
+    ],
+    "tags": [
+      "proxy",
+      "sse",
+      "remote",
+      "transport",
+      "infrastructure"
+    ],
+    "url": "https://github.com/sparfenyuk/mcp-proxy"
+  },
+  {
+    "id": "metamcp",
+    "name": "MetaMCP",
+    "description": "Unified middleware MCP server that manages and orchestrates multiple MCP connections through one interface.",
+    "author": "metatool-ai",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "metamcp"
+    ],
+    "tags": [
+      "meta",
+      "proxy",
+      "orchestration",
+      "management",
+      "middleware"
+    ],
+    "stars": 2200,
+    "url": "https://github.com/metatool-ai/metamcp"
+  },
+  {
+    "id": "anyquery",
+    "name": "Anyquery MCP",
+    "description": "Query 40+ applications including Airtable, Notion, Spotify, and more with a single SQL interface.",
+    "author": "julien040",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "anyquery"
+    ],
+    "tags": [
+      "sql",
+      "query",
+      "multi-source",
+      "integration",
+      "analytics"
+    ],
+    "stars": 1600,
+    "url": "https://github.com/julien040/anyquery"
+  },
+  {
+    "id": "mindsdb",
+    "name": "MindsDB MCP",
+    "description": "Connect and unify data across various platforms and databases with MindsDB as a single MCP server.",
+    "author": "mindsdb",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mindsdb-mcp"
+    ],
+    "tags": [
+      "ai",
+      "database",
+      "ml",
+      "predictions",
+      "sql"
+    ],
+    "stars": 39000,
+    "url": "https://github.com/mindsdb/mindsdb"
+  },
+  {
+    "id": "kubectl-mcp",
+    "name": "kubectl MCP",
+    "description": "Multi-platform Kubernetes operations with debugging, cost optimization, and deployment management via kubectl.",
+    "author": "rohitg00",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "kubectl-mcp-server"
+    ],
+    "tags": [
+      "kubectl",
+      "kubernetes",
+      "k8s",
+      "devops",
+      "containers"
+    ],
+    "url": "https://github.com/rohitg00/kubectl-mcp-server"
+  },
+  {
+    "id": "gitingest",
+    "name": "Gitingest MCP",
+    "description": "Provides AI-friendly summaries and content of GitHub repositories for codebase understanding.",
+    "author": "puravparab",
+    "category": "git",
+    "command": "uvx",
+    "args": [
+      "gitingest-mcp"
+    ],
+    "tags": [
+      "github",
+      "repository",
+      "code",
+      "summary",
+      "analysis"
+    ],
+    "url": "https://github.com/puravparab/Gitingest-MCP"
+  },
+  {
+    "id": "phabricator",
+    "name": "Phabricator MCP",
+    "description": "Phabricator API integration for repository management, code review, and project management operations.",
+    "author": "baba786",
+    "category": "git",
+    "command": "uvx",
+    "args": [
+      "phabricator-mcp-server"
+    ],
+    "tags": [
+      "phabricator",
+      "code-review",
+      "repository",
+      "project-management"
+    ],
+    "url": "https://github.com/baba786/phabricator-mcp-server"
+  },
+  {
+    "id": "git-mcp",
+    "name": "Git MCP (gitmcp.io)",
+    "description": "Generic GitHub repository and documentation access server that works with any public GitHub repo.",
+    "author": "idosal",
+    "category": "git",
+    "command": "npx",
+    "args": [
+      "-y",
+      "gitmcp"
+    ],
+    "tags": [
+      "github",
+      "documentation",
+      "repository",
+      "code",
+      "open-source"
+    ],
+    "url": "https://github.com/idosal/git-mcp"
+  },
+  {
+    "id": "mcp-filesystem-go",
+    "name": "MCP Filesystem Server (Go)",
+    "description": "Golang implementation of the MCP filesystem server for local file system operations with configurable access.",
+    "author": "mark3labs",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mark3labs/mcp-filesystem-server"
+    ],
+    "tags": [
+      "filesystem",
+      "files",
+      "go",
+      "golang",
+      "local"
+    ],
+    "url": "https://github.com/mark3labs/mcp-filesystem-server"
+  },
+  {
+    "id": "llm-context",
+    "name": "LLM Context MCP",
+    "description": "Share entire codebase context with LLMs via Model Context Protocol or clipboard with smart file filtering.",
+    "author": "cyberchitta",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "llm-context"
+    ],
+    "tags": [
+      "context",
+      "codebase",
+      "clipboard",
+      "code",
+      "llm"
+    ],
+    "url": "https://github.com/cyberchitta/llm-context.py"
+  },
+  {
+    "id": "microsandbox",
+    "name": "Microsandbox MCP",
+    "description": "Self-hosted platform for secure execution of AI-generated code with isolation and resource controls.",
+    "author": "microsandbox",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "microsandbox-mcp"
+    ],
+    "tags": [
+      "sandbox",
+      "code-execution",
+      "security",
+      "self-hosted",
+      "isolation"
+    ],
+    "url": "https://github.com/microsandbox/microsandbox"
+  },
+  {
+    "id": "skyvern",
+    "name": "Skyvern Browser MCP",
+    "description": "Control browsers with Skyvern's AI-powered browser automation platform for complex web workflows.",
+    "author": "Skyvern-AI",
+    "category": "browser-automation",
+    "command": "uvx",
+    "args": [
+      "skyvern-mcp"
+    ],
+    "tags": [
+      "browser",
+      "automation",
+      "ai",
+      "web",
+      "scraping"
+    ],
+    "url": "https://github.com/Skyvern-AI/skyvern"
+  },
+  {
+    "id": "mcp-backup",
+    "name": "MCP Backup Server",
+    "description": "File and folder backup and restoration capabilities for protecting important data via AI agents.",
+    "author": "hexitex",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-backup-server"
+    ],
+    "tags": [
+      "backup",
+      "restore",
+      "files",
+      "storage",
+      "protection"
+    ],
+    "url": "https://github.com/hexitex/MCP-Backup-Server"
+  },
+  {
+    "id": "mongodb-lens",
+    "name": "MongoDB Lens MCP",
+    "description": "Full-featured MCP server for MongoDB with comprehensive database operations, aggregation, and analysis.",
+    "author": "furey",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mongodb-lens"
+    ],
+    "tags": [
+      "mongodb",
+      "nosql",
+      "database",
+      "aggregation",
+      "atlas"
+    ],
+    "url": "https://github.com/furey/mongodb-lens"
+  },
+  {
+    "id": "tidb",
+    "name": "TiDB MCP",
+    "description": "MCP server implementation for TiDB serverless distributed database with MySQL compatibility.",
+    "author": "c4pt0r",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-server-tidb"
+    ],
+    "tags": [
+      "tidb",
+      "database",
+      "mysql",
+      "distributed",
+      "serverless"
+    ],
+    "url": "https://github.com/c4pt0r/mcp-server-tidb"
+  },
+  {
+    "id": "nocodb",
+    "name": "NocoDB MCP",
+    "description": "Read and write access to NocoDB open-source Airtable alternative for spreadsheet-database hybrid operations.",
+    "author": "edwinbernadus",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "nocodb-mcp-server"
+    ],
+    "tags": [
+      "nocodb",
+      "database",
+      "spreadsheet",
+      "no-code",
+      "airtable"
+    ],
+    "url": "https://github.com/edwinbernadus/nocodb-mcp-server"
+  },
+  {
+    "id": "couchbase",
+    "name": "Couchbase MCP",
+    "description": "Interact with data in Couchbase clusters for document operations, queries, and cluster management.",
+    "author": "Couchbase-Ecosystem",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-server-couchbase"
+    ],
+    "tags": [
+      "couchbase",
+      "nosql",
+      "database",
+      "json",
+      "n1ql"
+    ],
+    "url": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase"
+  },
+  {
+    "id": "mcp-redis",
+    "name": "Redis MCP (Official)",
+    "description": "Official Redis MCP server providing natural language interface for managing and searching data in Redis.",
+    "author": "redis",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "redis-mcp"
+    ],
+    "tags": [
+      "redis",
+      "cache",
+      "key-value",
+      "search",
+      "pub-sub"
+    ],
+    "url": "https://github.com/redis/mcp-redis"
+  },
+  {
+    "id": "dbhub",
+    "name": "DBHub MCP",
+    "description": "Universal database gateway supporting MySQL, MariaDB, PostgreSQL, SQL Server, and more databases.",
+    "author": "bytebase",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "dbhub"
+    ],
+    "tags": [
+      "database",
+      "mysql",
+      "postgresql",
+      "mariadb",
+      "sql-server",
+      "universal"
+    ],
+    "url": "https://github.com/bytebase/dbhub"
+  },
+  {
+    "id": "dbutils",
+    "name": "DBUtils MCP",
+    "description": "Unified database access service integrating PostgreSQL and SQLite with connection pooling and queries.",
+    "author": "donghao1393",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "mcp-dbutils"
+    ],
+    "tags": [
+      "database",
+      "postgresql",
+      "sqlite",
+      "unified",
+      "access"
+    ],
+    "url": "https://github.com/donghao1393/mcp-dbutils"
+  },
+  {
+    "id": "mcp-mysql",
+    "name": "MySQL MCP Server (benborla)",
+    "description": "Read-only MySQL database access with schema inspection and safe query execution for AI analysis.",
+    "author": "benborla",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-mysql"
+    ],
+    "tags": [
+      "mysql",
+      "database",
+      "read-only",
+      "sql",
+      "schema"
+    ],
+    "url": "https://github.com/benborla/mcp-server-mysql"
+  },
+  {
+    "id": "cognee",
+    "name": "Cognee MCP",
+    "description": "GraphRAG-powered memory manager for AI apps using graph and vector stores for knowledge retrieval.",
+    "author": "topoteretes",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "cognee-mcp"
+    ],
+    "tags": [
+      "memory",
+      "graph",
+      "rag",
+      "knowledge",
+      "vector"
+    ],
+    "url": "https://github.com/topoteretes/cognee"
+  },
+  {
+    "id": "mcp-language-server",
+    "name": "Language Server MCP",
+    "description": "Precise code understanding via LSP integration for type information, references, and symbol lookup.",
+    "author": "isaacphi",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-language-server"
+    ],
+    "tags": [
+      "lsp",
+      "code",
+      "symbols",
+      "types",
+      "ide"
+    ],
+    "url": "https://github.com/isaacphi/mcp-language-server"
+  },
+  {
+    "id": "nx-mcp",
+    "name": "Nx MCP",
+    "description": "Nx monorepo codebase architecture understanding for LLMs including project graph and task execution.",
+    "author": "nrwl",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "nx-mcp"
+    ],
+    "tags": [
+      "nx",
+      "monorepo",
+      "architecture",
+      "build-system",
+      "angular"
+    ],
+    "url": "https://github.com/nrwl/nx-console"
+  },
+  {
+    "id": "airflow",
+    "name": "Apache Airflow MCP",
+    "description": "Apache Airflow DAG management for triggering pipelines, monitoring task runs, and workflow orchestration.",
+    "author": "hipposys-ltd",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "airflow-mcp"
+    ],
+    "tags": [
+      "airflow",
+      "data-pipeline",
+      "workflow",
+      "etl",
+      "orchestration"
+    ],
+    "url": "https://github.com/hipposys-ltd/airflow-mcp"
+  },
+  {
+    "id": "buildkite",
+    "name": "Buildkite MCP",
+    "description": "Access and manage Buildkite CI/CD pipelines, builds, and test analytics via AI agents.",
+    "author": "buildkite",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@buildkite/mcp"
+    ],
+    "tags": [
+      "buildkite",
+      "ci-cd",
+      "pipeline",
+      "builds",
+      "testing"
+    ],
+    "url": "https://github.com/buildkite/buildkite-mcp-server"
+  },
+  {
+    "id": "slack-korotovsky",
+    "name": "Slack MCP (Advanced)",
+    "description": "Full-featured Slack MCP server with Stdio/SSE transports supporting workspace integration without admin approval.",
+    "author": "korotovsky",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-slack"
+    ],
+    "tags": [
+      "slack",
+      "messaging",
+      "workspace",
+      "channels",
+      "communication"
+    ],
+    "url": "https://github.com/korotovsky/slack-mcp-server"
+  },
+  {
+    "id": "rayvn",
+    "name": "Raygun MCP",
+    "description": "Raygun API V3 integration for crash reporting, error tracking, and real user monitoring analytics.",
+    "author": "MindscapeHQ",
+    "category": "monitoring",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-raygun"
+    ],
+    "tags": [
+      "raygun",
+      "crash-reporting",
+      "error-tracking",
+      "monitoring",
+      "apm"
+    ],
+    "url": "https://github.com/MindscapeHQ/mcp-server-raygun"
+  },
+  {
+    "id": "metoro",
+    "name": "Metoro MCP",
+    "description": "Query and interact with Kubernetes environments monitored by Metoro for observability and debugging.",
+    "author": "metoro-io",
+    "category": "monitoring",
+    "command": "npx",
+    "args": [
+      "-y",
+      "metoro-mcp-server"
+    ],
+    "tags": [
+      "kubernetes",
+      "monitoring",
+      "observability",
+      "logs",
+      "metrics"
+    ],
+    "url": "https://github.com/metoro-io/metoro-mcp-server"
+  },
+  {
+    "id": "netdata",
+    "name": "Netdata MCP",
+    "description": "System monitoring and observability data analysis with real-time metrics from Netdata agents.",
+    "author": "netdata",
+    "category": "monitoring",
+    "command": "uvx",
+    "args": [
+      "netdata-mcp"
+    ],
+    "tags": [
+      "netdata",
+      "monitoring",
+      "metrics",
+      "performance",
+      "system"
+    ],
+    "url": "https://github.com/netdata/netdata"
+  },
+  {
+    "id": "phoenix-arize",
+    "name": "Phoenix MCP (Arize)",
+    "description": "LLM observability and tracing capabilities for evaluating and debugging AI application performance.",
+    "author": "Arize-ai",
+    "category": "monitoring",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@arizeai/phoenix-mcp"
+    ],
+    "tags": [
+      "observability",
+      "llm",
+      "tracing",
+      "evaluation",
+      "monitoring"
+    ],
+    "url": "https://github.com/Arize-ai/phoenix"
+  },
+  {
+    "id": "github-official",
+    "name": "GitHub MCP (Official)",
+    "description": "Official GitHub MCP server for repository management, PR reviews, issue tracking, and code operations.",
+    "author": "github",
+    "category": "git",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@github/github-mcp-server"
+    ],
+    "tags": [
+      "github",
+      "repository",
+      "pull-requests",
+      "issues",
+      "code"
+    ],
+    "url": "https://github.com/github/github-mcp-server"
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab MCP",
+    "description": "GitLab platform integration for project management, merge requests, CI/CD pipelines, and code operations.",
+    "author": "modelcontextprotocol",
+    "category": "git",
+    "command": "uvx",
+    "args": [
+      "mcp-server-gitlab"
+    ],
+    "tags": [
+      "gitlab",
+      "git",
+      "ci-cd",
+      "merge-requests",
+      "devops"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab"
+  },
+  {
+    "id": "semgrep",
+    "name": "Semgrep MCP",
+    "description": "Code security scanning and vulnerability detection using Semgrep's static analysis engine.",
+    "author": "semgrep",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "semgrep-mcp"
+    ],
+    "tags": [
+      "security",
+      "static-analysis",
+      "code-quality",
+      "vulnerabilities",
+      "sast"
+    ],
+    "url": "https://github.com/semgrep/semgrep"
+  },
+  {
+    "id": "activepieces",
+    "name": "Activepieces MCP",
+    "description": "Dynamic workflow integration supporting 100+ apps for automating business processes without code.",
+    "author": "activepieces",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@activepieces/mcp"
+    ],
+    "tags": [
+      "automation",
+      "workflow",
+      "no-code",
+      "integration",
+      "zapier-alternative"
+    ],
+    "url": "https://github.com/activepieces/activepieces"
+  },
+  {
+    "id": "magic-mcp",
+    "name": "Magic MCP (21st.dev)",
+    "description": "Create beautiful UI components via natural language powered by 21st.dev's component design system.",
+    "author": "21st-dev",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@21st-dev/magic@latest"
+    ],
+    "tags": [
+      "ui",
+      "components",
+      "design",
+      "react",
+      "frontend"
+    ],
+    "url": "https://github.com/21st-dev/magic-mcp"
+  },
+  {
+    "id": "vizro",
+    "name": "Vizro MCP",
+    "description": "Create data charts and dashboards using McKinsey's Vizro visualization framework via AI prompts.",
+    "author": "mckinsey",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "vizro-mcp"
+    ],
+    "tags": [
+      "visualization",
+      "charts",
+      "dashboards",
+      "data",
+      "python"
+    ],
+    "url": "https://github.com/mckinsey/vizro"
+  },
+  {
+    "id": "apify",
+    "name": "Apify MCP",
+    "description": "Extract data from websites using Apify's 6,000+ cloud actors for web scraping and automation.",
+    "author": "apify",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@apify/actors-mcp-server"
+    ],
+    "tags": [
+      "web-scraping",
+      "automation",
+      "actors",
+      "data-extraction",
+      "cloud"
+    ],
+    "url": "https://github.com/apify/apify-mcp-server"
+  },
+  {
+    "id": "bright-data",
+    "name": "Bright Data MCP",
+    "description": "Automated internet access and web data extraction using Bright Data's proxy and scraping infrastructure.",
+    "author": "luminati-io",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@brightdata/mcp"
+    ],
+    "tags": [
+      "web-scraping",
+      "proxy",
+      "data-extraction",
+      "brightdata",
+      "automation"
+    ],
+    "url": "https://github.com/luminati-io/brightdata-mcp"
+  },
+  {
+    "id": "jina-ai",
+    "name": "Jina AI MCP",
+    "description": "Official Jina AI server with Reader, Embeddings, Reranker, and Search APIs for document processing.",
+    "author": "jina-ai",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@jina-ai/mcp-server"
+    ],
+    "tags": [
+      "embeddings",
+      "search",
+      "reranker",
+      "ai",
+      "jina"
+    ],
+    "url": "https://github.com/jina-ai/MCP"
+  },
+  {
+    "id": "vectara",
+    "name": "Vectara RAG MCP",
+    "description": "Trusted RAG with hallucination detection using Vectara's enterprise search and indexing platform.",
+    "author": "vectara",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@vectara/vectara-mcp"
+    ],
+    "tags": [
+      "rag",
+      "search",
+      "hallucination",
+      "enterprise",
+      "vector"
+    ],
+    "url": "https://github.com/vectara/vectara-mcp"
+  },
+  {
+    "id": "langchain-mcp",
+    "name": "LangChain MCP Adapters",
+    "description": "Official LangChain adapters for converting MCP tools to LangGraph-compatible tools for AI agents.",
+    "author": "langchain-ai",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "langchain-mcp-adapters"
+    ],
+    "tags": [
+      "langchain",
+      "langgraph",
+      "agents",
+      "tools",
+      "framework"
+    ],
+    "url": "https://github.com/langchain-ai/langchain-mcp-adapters"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate MCP",
+    "description": "Access and run thousands of AI models from Replicate's cloud platform for image, video, and audio generation.",
+    "author": "replicate",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@replicate/mcp-server"
+    ],
+    "tags": [
+      "ai",
+      "models",
+      "image-generation",
+      "video",
+      "audio",
+      "cloud"
+    ],
+    "url": "https://github.com/replicate/replicate-mcp"
+  },
+  {
+    "id": "alpaca",
+    "name": "Alpaca MCP",
+    "description": "Stock trading and market data analysis via Alpaca's brokerage API for AI-powered trading agents.",
+    "author": "alpacahq",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "alpaca-mcp"
+    ],
+    "tags": [
+      "stocks",
+      "trading",
+      "market-data",
+      "brokerage",
+      "finance"
+    ],
+    "url": "https://github.com/alpacahq/alpaca-mcp-server"
+  },
+  {
+    "id": "alphavantage",
+    "name": "AlphaVantage MCP",
+    "description": "Access 100+ financial market data APIs including stocks, forex, crypto, and economic indicators.",
+    "author": "calvernaz",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "alphavantage-mcp"
+    ],
+    "tags": [
+      "stocks",
+      "forex",
+      "crypto",
+      "financial-data",
+      "market"
+    ],
+    "url": "https://github.com/calvernaz/alphavantage"
+  },
+  {
+    "id": "coin-api",
+    "name": "CoinMarketCap MCP",
+    "description": "Real-time cryptocurrency market data including prices, market caps, volume, and trading information.",
+    "author": "longmans",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "coin-api-mcp"
+    ],
+    "tags": [
+      "crypto",
+      "cryptocurrency",
+      "market-data",
+      "bitcoin",
+      "coinmarketcap"
+    ],
+    "url": "https://github.com/longmans/coin_api_mcp"
+  },
+  {
+    "id": "stripe-agent-toolkit",
+    "name": "Stripe Agent Toolkit MCP",
+    "description": "Official Stripe SDK for AI agents to process payments, manage customers, and access financial data.",
+    "author": "stripe",
+    "category": "finance",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@stripe/agent-toolkit"
+    ],
+    "tags": [
+      "stripe",
+      "payments",
+      "billing",
+      "subscriptions",
+      "finance"
+    ],
+    "url": "https://github.com/stripe/agent-toolkit"
+  },
+  {
+    "id": "google-maps-official",
+    "name": "Google Maps MCP",
+    "description": "Location services, directions, place search, and geospatial queries using the Google Maps Platform API.",
+    "author": "modelcontextprotocol",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-google-maps"
+    ],
+    "tags": [
+      "google-maps",
+      "location",
+      "geocoding",
+      "places",
+      "directions"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
+  },
+  {
+    "id": "mcp-postgres",
+    "name": "PostgreSQL Crystal DBA MCP",
+    "description": "Comprehensive PostgreSQL assistance throughout development from writing SQL to performance tuning.",
+    "author": "crystaldba",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "postgres-mcp"
+    ],
+    "tags": [
+      "postgresql",
+      "sql",
+      "dba",
+      "performance",
+      "tuning"
+    ],
+    "url": "https://github.com/crystaldba/postgres-mcp"
+  },
+  {
+    "id": "mlflow",
+    "name": "MLflow MCP",
+    "description": "MLflow experiment tracking for AI application development including runs, models, and evaluation.",
+    "author": "mlflow",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "mlflow-mcp"
+    ],
+    "tags": [
+      "mlflow",
+      "ml",
+      "experiment-tracking",
+      "models",
+      "mlops"
+    ],
+    "url": "https://github.com/mlflow/mlflow"
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone MCP",
+    "description": "Official Pinecone vector database server for managing indexes, embeddings, and semantic search operations.",
+    "author": "pinecone-io",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@pinecone-database/mcp"
+    ],
+    "tags": [
+      "pinecone",
+      "vector-database",
+      "embeddings",
+      "semantic-search",
+      "rag"
+    ],
+    "url": "https://github.com/pinecone-io/pinecone-mcp"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase MCP",
+    "description": "Firebase backend integration for Firestore, Authentication, Storage, and serverless functions.",
+    "author": "firebase",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "firebase-tools"
+    ],
+    "tags": [
+      "firebase",
+      "firestore",
+      "auth",
+      "google",
+      "backend"
+    ],
+    "url": "https://github.com/firebase/firebase-tools"
+  },
+  {
+    "id": "daytona",
+    "name": "Daytona MCP",
+    "description": "Secure AI code execution via sandboxed development environments with pre-configured language runtimes.",
+    "author": "daytonaio",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@daytonaio/mcp"
+    ],
+    "tags": [
+      "sandbox",
+      "code-execution",
+      "development",
+      "cloud",
+      "security"
+    ],
+    "url": "https://github.com/daytonaio/daytona"
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0 MCP",
+    "description": "Create and modify Auth0 actions, applications, forms, and manage logs for identity platform operations.",
+    "author": "auth0",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@auth0/mcp-server-auth0"
+    ],
+    "tags": [
+      "auth0",
+      "authentication",
+      "identity",
+      "oauth",
+      "security"
+    ],
+    "url": "https://github.com/auth0/auth0-mcp-server"
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face MCP",
+    "description": "Official server for searching Hugging Face models, datasets, Spaces, and research papers.",
+    "author": "huggingface",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@huggingface/mcp-server"
+    ],
+    "tags": [
+      "huggingface",
+      "models",
+      "datasets",
+      "ml",
+      "transformers"
+    ],
+    "url": "https://github.com/huggingface/huggingface-mcp-server"
+  },
+  {
+    "id": "run-python",
+    "name": "Run Python MCP",
+    "description": "Secure sandbox Python code execution via MCP tool calls using Pydantic AI's execution environment.",
+    "author": "pydantic",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "pydantic-ai-mcp-run-python"
+    ],
+    "tags": [
+      "python",
+      "sandbox",
+      "code-execution",
+      "pydantic",
+      "secure"
+    ],
+    "url": "https://github.com/pydantic/pydantic-ai"
+  },
+  {
+    "id": "aws-labs",
+    "name": "AWS Labs MCP",
+    "description": "Official AWS MCP servers bringing AWS best practices to development with 15,000+ API integrations.",
+    "author": "awslabs",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "awslabs.core-mcp-server"
+    ],
+    "tags": [
+      "aws",
+      "cloud",
+      "infrastructure",
+      "s3",
+      "lambda",
+      "ec2"
+    ],
+    "url": "https://github.com/awslabs/mcp"
+  },
+  {
+    "id": "chroma-vector",
+    "name": "Chroma Vector DB MCP",
+    "description": "ChromaDB vector database integration with semantic search, filtering, and embedding management.",
+    "author": "privetin",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "chroma-mcp"
+    ],
+    "tags": [
+      "chromadb",
+      "vector-database",
+      "embeddings",
+      "semantic-search",
+      "rag"
+    ],
+    "url": "https://github.com/privetin/chroma"
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary MCP",
+    "description": "Media asset management for uploading, transforming, and retrieving images and videos via Cloudinary.",
+    "author": "felores",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "cloudinary-mcp-server"
+    ],
+    "tags": [
+      "cloudinary",
+      "media",
+      "images",
+      "video",
+      "cdn"
+    ],
+    "url": "https://github.com/felores/cloudinary-mcp-server"
+  },
+  {
+    "id": "claude-post",
+    "name": "ClaudePost Gmail MCP",
+    "description": "Gmail integration for reading, composing, and managing emails through natural language AI interface.",
+    "author": "ZilongXue",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "claudepost-mcp"
+    ],
+    "tags": [
+      "gmail",
+      "email",
+      "google",
+      "communication",
+      "inbox"
+    ],
+    "url": "https://github.com/ZilongXue/claude-post"
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean MCP",
+    "description": "DigitalOcean deployment and infrastructure management for droplets, databases, and app platform.",
+    "author": "oliverbenns",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "digitalocean-mcp"
+    ],
+    "tags": [
+      "digitalocean",
+      "cloud",
+      "deployment",
+      "droplets",
+      "infrastructure"
+    ],
+    "url": "https://github.com/oliverbenns/digitalocean-mcp"
+  },
+  {
+    "id": "cfbd-mcp",
+    "name": "College Football Data MCP",
+    "description": "Query college football statistics, game data, and analytics via the College Football Data API.",
+    "author": "lenwood",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "cfbd-mcp-server"
+    ],
+    "tags": [
+      "sports",
+      "football",
+      "statistics",
+      "data",
+      "api"
+    ],
+    "url": "https://github.com/lenwood/cfbd-mcp-server"
+  },
+  {
+    "id": "dataset-viewer",
+    "name": "Hugging Face Dataset Viewer MCP",
+    "description": "Browse and explore Hugging Face datasets with search, filtering, and column inspection capabilities.",
+    "author": "privetin",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "dataset-viewer"
+    ],
+    "tags": [
+      "huggingface",
+      "datasets",
+      "ml",
+      "data",
+      "exploration"
+    ],
+    "url": "https://github.com/privetin/dataset-viewer"
+  },
+  {
+    "id": "chatsum",
+    "name": "ChatSum MCP",
+    "description": "Chat message querying and summarization for extracting insights from conversation histories.",
+    "author": "mcpso",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-chatsum"
+    ],
+    "tags": [
+      "chat",
+      "summarization",
+      "nlp",
+      "conversations",
+      "analysis"
+    ],
+    "url": "https://github.com/mcpso/mcp-server-chatsum"
+  },
+  {
+    "id": "scryfall",
+    "name": "Scryfall MCP",
+    "description": "Magic: The Gathering card data, rulings, and set information via the Scryfall API.",
+    "author": "dbeltra",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "scryfall-mcp"
+    ],
+    "tags": [
+      "magic-the-gathering",
+      "cards",
+      "games",
+      "tcg",
+      "scryfall"
+    ],
+    "url": "https://github.com/dbeltra/scryfall-mcp"
+  },
+  {
+    "id": "mcp-markdownify",
+    "name": "MarkItDown MCP (Klavis)",
+    "description": "Convert various file formats including PDFs, Word docs, and images to Markdown using Microsoft MarkItDown.",
+    "author": "Klavis-AI",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@klavis/markitdown-mcp"
+    ],
+    "tags": [
+      "markdown",
+      "conversion",
+      "pdf",
+      "word",
+      "files"
+    ],
+    "url": "https://github.com/Klavis-AI/klavis"
+  },
+  {
+    "id": "pandoc-mcp",
+    "name": "Pandoc MCP",
+    "description": "Convert documents between various file formats including HTML, LaTeX, EPUB, and more via Pandoc.",
+    "author": "Klavis-AI",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@klavis/pandoc-mcp"
+    ],
+    "tags": [
+      "pandoc",
+      "conversion",
+      "documents",
+      "latex",
+      "epub"
+    ],
+    "url": "https://github.com/Klavis-AI/klavis"
+  },
+  {
+    "id": "resend-mcp",
+    "name": "Resend MCP",
+    "description": "Send transactional emails via Resend's email delivery service with template support.",
+    "author": "Klavis-AI",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@klavis/resend-mcp"
+    ],
+    "tags": [
+      "email",
+      "resend",
+      "transactional",
+      "smtp",
+      "communication"
+    ],
+    "url": "https://github.com/Klavis-AI/klavis"
+  },
+  {
+    "id": "youtube-mcp",
+    "name": "YouTube MCP",
+    "description": "Extract YouTube video information, transcripts, and metadata with proxy support for research.",
+    "author": "Klavis-AI",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@klavis/youtube-mcp"
+    ],
+    "tags": [
+      "youtube",
+      "video",
+      "transcripts",
+      "metadata",
+      "media"
+    ],
+    "url": "https://github.com/Klavis-AI/klavis"
+  },
+  {
+    "id": "anki",
+    "name": "Anki MCP",
+    "description": "Interact with Anki flashcard application for spaced repetition learning and deck management.",
+    "author": "scorzeth",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "anki-mcp-server"
+    ],
+    "tags": [
+      "anki",
+      "flashcards",
+      "learning",
+      "spaced-repetition",
+      "education"
+    ],
+    "url": "https://github.com/scorzeth/anki-mcp-server"
+  },
+  {
+    "id": "mcp-compass",
+    "name": "MCP Compass",
+    "description": "MCP server discovery and recommendation service for finding the right MCP server for any task.",
+    "author": "liuyoshio",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-compass"
+    ],
+    "tags": [
+      "discovery",
+      "recommendation",
+      "meta",
+      "search",
+      "mcp"
+    ],
+    "url": "https://github.com/liuyoshio/mcp-compass"
+  },
+  {
+    "id": "code-executor",
+    "name": "Code Executor MCP",
+    "description": "Python code execution in Conda environments for data science and machine learning workflows.",
+    "author": "bazinga012",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-code-executor"
+    ],
+    "tags": [
+      "python",
+      "code-execution",
+      "conda",
+      "data-science",
+      "ml"
+    ],
+    "url": "https://github.com/bazinga012/mcp_code_executor"
+  },
+  {
+    "id": "microsoft-docs",
+    "name": "Microsoft Docs MCP",
+    "description": "Structured access to Microsoft documentation for Azure, Windows, .NET, and other Microsoft products.",
+    "author": "microsoftdocs",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@microsoft/mcp-docs"
+    ],
+    "tags": [
+      "microsoft",
+      "documentation",
+      "azure",
+      "dotnet",
+      "windows"
+    ],
+    "url": "https://github.com/microsoftdocs/mcp"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog MCP",
+    "description": "Connects AI agents to Datadog's unified observability platform for querying logs, metrics, and traces.",
+    "author": "DataDog",
+    "category": "monitoring",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@datadog/mcp-server"
+    ],
+    "tags": [
+      "datadog",
+      "monitoring",
+      "logs",
+      "metrics",
+      "traces",
+      "apm"
+    ],
+    "url": "https://github.com/DataDog/datadog-mcp-server"
+  },
+  {
+    "id": "mcp-run-python-pydantic",
+    "name": "PyDantic Run Python MCP",
+    "description": "Execute Python code in a secure WebAssembly sandbox powered by Pyodide for safe AI code execution.",
+    "author": "pydantic",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "pydantic-run-python-mcp"
+    ],
+    "tags": [
+      "python",
+      "wasm",
+      "sandbox",
+      "secure",
+      "pyodide"
+    ],
+    "url": "https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python"
+  },
+  {
+    "id": "firestash",
+    "name": "FileStash MCP",
+    "description": "Remote storage access for SFTP, S3, FTP, SMB, NFS, WebDAV, and cloud services via FileStash.",
+    "author": "mickael-kerjean",
+    "category": "files",
+    "command": "docker",
+    "args": [
+      "run",
+      "-p",
+      "8334:8334",
+      "machines/filestash"
+    ],
+    "tags": [
+      "sftp",
+      "s3",
+      "ftp",
+      "cloud-storage",
+      "remote",
+      "webdav"
+    ],
+    "url": "https://github.com/mickael-kerjean/filestash"
+  },
+  {
+    "id": "imcp",
+    "name": "iMCP (Apple Services)",
+    "description": "Comprehensive Apple platform integration for iMessage, Reminders, Calendar, and other Apple services on macOS.",
+    "author": "loopwork-ai",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "imcp-server"
+    ],
+    "tags": [
+      "apple",
+      "imessage",
+      "macos",
+      "reminders",
+      "calendar"
+    ],
+    "url": "https://github.com/loopwork-ai/iMCP"
+  },
+  {
+    "id": "opendia",
+    "name": "OpenDia Diagrams MCP",
+    "description": "Create and collaborate on diagrams with real-time rendering for architecture and system design visualization.",
+    "author": "aaronjmars",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "opendia-mcp"
+    ],
+    "tags": [
+      "diagrams",
+      "architecture",
+      "visualization",
+      "collaboration",
+      "charts"
+    ],
+    "url": "https://github.com/aaronjmars/opendia"
+  },
+  {
+    "id": "mcp-postgres-bigquery",
+    "name": "BigQuery MCP (ergut)",
+    "description": "Read-only SQL queries and schema exploration for Google BigQuery datasets.",
+    "author": "ergut",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-bigquery-server"
+    ],
+    "tags": [
+      "bigquery",
+      "google",
+      "sql",
+      "analytics",
+      "read-only"
+    ],
+    "url": "https://github.com/ergut/mcp-bigquery-server"
+  },
+  {
+    "id": "mcp-google-drive-felores",
+    "name": "Google Drive MCP (felores)",
+    "description": "Search, read, and categorize files in Google Drive with folder navigation and content access.",
+    "author": "felores",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "gdrive-mcp-server"
+    ],
+    "tags": [
+      "google-drive",
+      "files",
+      "cloud",
+      "storage",
+      "search"
+    ],
+    "url": "https://github.com/felores/gdrive-mcp-server"
+  },
+  {
+    "id": "a11y-mcp",
+    "name": "Accessibility Testing MCP",
+    "description": "Web accessibility testing and WCAG compliance checking for websites and web applications.",
+    "author": "ronantakizawa",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "a11y-mcp-server"
+    ],
+    "tags": [
+      "accessibility",
+      "wcag",
+      "a11y",
+      "testing",
+      "web"
+    ],
+    "url": "https://github.com/ronantakizawa/a11ymcp"
+  },
+  {
+    "id": "github-repos-manager",
+    "name": "GitHub Repos Manager MCP",
+    "description": "Token-based GitHub automation management with 80+ tools for comprehensive repository operations.",
+    "author": "kurdin",
+    "category": "git",
+    "command": "npx",
+    "args": [
+      "-y",
+      "github-repos-manager-mcp"
+    ],
+    "tags": [
+      "github",
+      "repository",
+      "automation",
+      "management",
+      "api"
+    ],
+    "url": "https://github.com/kurdin/github-repos-manager-mcp"
+  },
+  {
+    "id": "mcp-ansible",
+    "name": "Ansible MCP",
+    "description": "Manage Ansible inventories, playbooks, roles, and workflows for infrastructure automation.",
+    "author": "bsahane",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-ansible"
+    ],
+    "tags": [
+      "ansible",
+      "automation",
+      "infrastructure",
+      "devops",
+      "playbooks"
+    ],
+    "url": "https://github.com/bsahane/mcp-ansible"
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI MCP",
+    "description": "Official CircleCI server for debugging builds, analyzing test failures, and optimizing CI/CD pipelines.",
+    "author": "CircleCI-Public",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@circleci/mcp-server-circleci"
+    ],
+    "tags": [
+      "circleci",
+      "ci-cd",
+      "testing",
+      "builds",
+      "devops"
+    ],
+    "url": "https://github.com/CircleCI-Public/mcp-server-circleci"
+  },
+  {
+    "id": "aws-s3-sample",
+    "name": "AWS S3 MCP",
+    "description": "Sample MCP server for Amazon S3 object retrieval, listing, and management operations.",
+    "author": "aws-samples",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "aws-s3-mcp"
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "storage",
+      "cloud",
+      "objects"
+    ],
+    "url": "https://github.com/aws-samples/sample-mcp-server-s3"
+  },
+  {
+    "id": "newsnow",
+    "name": "NewsNow MCP",
+    "description": "Access real-time news from 40+ sources with filtering and search for current events research.",
+    "author": "ourongxing",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "newsnow-mcp-server"
+    ],
+    "tags": [
+      "news",
+      "real-time",
+      "media",
+      "current-events",
+      "rss"
+    ],
+    "url": "https://github.com/ourongxing/newsnow-mcp-server"
+  },
+  {
+    "id": "storybook",
+    "name": "Storybook MCP",
+    "description": "Help AI agents automatically write and test Storybook stories for UI component documentation.",
+    "author": "storybookjs",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "storybook-mcp"
+    ],
+    "tags": [
+      "storybook",
+      "ui",
+      "components",
+      "testing",
+      "frontend",
+      "react"
+    ],
+    "url": "https://github.com/storybookjs/storybook"
+  },
+  {
+    "id": "dagster",
+    "name": "Dagster MCP",
+    "description": "Data pipeline building and orchestration integration for the Dagster modern data platform.",
+    "author": "dagster-io",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "dagster-mcp"
+    ],
+    "tags": [
+      "dagster",
+      "data-pipeline",
+      "etl",
+      "orchestration",
+      "data-engineering"
+    ],
+    "url": "https://github.com/dagster-io/dagster"
+  },
+  {
+    "id": "figma-cursor",
+    "name": "Talk to Figma MCP",
+    "description": "Interact with and modify Figma designs from Cursor through real-time two-way design system connection.",
+    "author": "sonnylazuardi",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "cursor-talk-to-figma-mcp"
+    ],
+    "tags": [
+      "figma",
+      "cursor",
+      "design",
+      "ui",
+      "components"
+    ],
+    "url": "https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp"
+  },
+  {
+    "id": "mcp-everything",
+    "name": "MCP Everything Server",
+    "description": "Reference and test MCP server implementing all protocol features: prompts, resources, tools, and sampling.",
+    "author": "modelcontextprotocol",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-everything"
+    ],
+    "tags": [
+      "reference",
+      "test",
+      "protocol",
+      "prompts",
+      "resources",
+      "tools"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything"
+  },
+  {
+    "id": "docker-mcp",
+    "name": "Docker MCP",
+    "description": "Docker container management for building, running, and inspecting containers via natural language.",
+    "author": "QuantGeekDev",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "docker-mcp"
+    ],
+    "tags": [
+      "docker",
+      "containers",
+      "images",
+      "devops",
+      "deployment"
+    ],
+    "url": "https://github.com/QuantGeekDev/docker-mcp"
+  },
+  {
+    "id": "mcp-npx-fetch",
+    "name": "NPX Fetch MCP",
+    "description": "Fetch and transform web content into HTML, JSON, Markdown, or Plain Text formats via HTTP.",
+    "author": "tokenizin-agency",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@tokenizin/mcp-npx-fetch"
+    ],
+    "tags": [
+      "fetch",
+      "web",
+      "html",
+      "markdown",
+      "http",
+      "conversion"
+    ],
+    "url": "https://github.com/tokenizin-agency/mcp-npx-fetch"
+  },
+  {
+    "id": "coinpaprika",
+    "name": "CoinPaprika MCP",
+    "description": "Real-time cryptocurrency market data including tickers, exchange info, OHLCV candles, and price conversions.",
+    "author": "coinpaprika",
+    "category": "finance",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@coinpaprika/mcp"
+    ],
+    "tags": [
+      "crypto",
+      "cryptocurrency",
+      "market-data",
+      "prices",
+      "exchange"
+    ],
+    "url": "https://github.com/coinpaprika/coinpaprika-mcp"
+  },
+  {
+    "id": "perplexity-ask",
+    "name": "Perplexity Ask MCP",
+    "description": "AI-powered search and question answering with real-time web access and cited sources via Perplexity.",
+    "author": "gabelul",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "perplexity-mcp"
+    ],
+    "tags": [
+      "perplexity",
+      "search",
+      "ai",
+      "qa",
+      "citations"
+    ],
+    "url": "https://github.com/gabelul/perplexity-mcp"
+  },
+  {
+    "id": "mcp-server-chart",
+    "name": "Report Generation MCP",
+    "description": "Create professional business reports and documents from simple data queries via AI generation.",
+    "author": "Klavis-AI",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@klavis/report-generation-mcp"
+    ],
+    "tags": [
+      "reports",
+      "documents",
+      "business",
+      "generation",
+      "pdf"
+    ],
+    "url": "https://github.com/Klavis-AI/klavis"
+  },
+  {
+    "id": "mcp-bazel",
+    "name": "Bazel MCP",
+    "description": "Bazel monorepo build system interaction for querying targets, running builds, and managing dependencies.",
+    "author": "aaomidi",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-bazel"
+    ],
+    "tags": [
+      "bazel",
+      "build-system",
+      "monorepo",
+      "dependencies",
+      "java"
+    ],
+    "url": "https://github.com/aaomidi/mcp-bazel"
+  },
+  {
+    "id": "helmfile-mcp",
+    "name": "Helmfile MCP",
+    "description": "Execute Helmfile commands for managing multiple Helm releases in Kubernetes environments.",
+    "author": "snowsky",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-helmfile"
+    ],
+    "tags": [
+      "helmfile",
+      "helm",
+      "kubernetes",
+      "deployment",
+      "gitops"
+    ],
+    "url": "https://github.com/snowsky/mcp-helmfile"
+  },
+  {
+    "id": "prometheus-mcp",
+    "name": "Prometheus MCP",
+    "description": "Prometheus metrics querying and alerting integration for monitoring system observability.",
+    "author": "qingshanyuluo",
+    "category": "monitoring",
+    "command": "uvx",
+    "args": [
+      "prometheus-mcp-server"
+    ],
+    "tags": [
+      "prometheus",
+      "metrics",
+      "monitoring",
+      "alerting",
+      "observability"
+    ],
+    "url": "https://github.com/qingshanyuluo/prometheus-mcp-server"
+  },
+  {
+    "id": "mcp-droid",
+    "name": "Android Control MCP",
+    "description": "Control Android devices remotely via ADB for automation, testing, and app interaction.",
+    "author": "YantaoMou",
+    "category": "browser-automation",
+    "command": "uvx",
+    "args": [
+      "mcp-droid"
+    ],
+    "tags": [
+      "android",
+      "adb",
+      "automation",
+      "mobile",
+      "testing"
+    ],
+    "url": "https://github.com/YantaoMou/mcp_droid"
+  },
+  {
+    "id": "ethereum-mcp",
+    "name": "Etherscan MCP",
+    "description": "Ethereum blockchain data via Etherscan API including transactions, tokens, and smart contract information.",
+    "author": "xiaok",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "etherscan-mcp"
+    ],
+    "tags": [
+      "ethereum",
+      "blockchain",
+      "etherscan",
+      "defi",
+      "web3",
+      "crypto"
+    ],
+    "url": "https://github.com/xiaok/etherscan-mcp"
+  },
+  {
+    "id": "openweather",
+    "name": "OpenWeather MCP",
+    "description": "Retrieve current weather data, forecasts, and historical weather from OpenWeather.org for any location.",
+    "author": "frostming",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "openweather-mcp"
+    ],
+    "tags": [
+      "weather",
+      "forecast",
+      "openweather",
+      "climate",
+      "location"
+    ],
+    "url": "https://github.com/frostming/openweather-mcp"
+  },
+  {
+    "id": "stocks-mcp",
+    "name": "Google Finance Stocks MCP",
+    "description": "Real-time stock prices and financial information from Google Finance for market research.",
+    "author": "natifridman",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "stocks-mcp-server"
+    ],
+    "tags": [
+      "stocks",
+      "google-finance",
+      "market",
+      "prices",
+      "trading"
+    ],
+    "url": "https://github.com/natifridman/stocks-mcp"
+  },
+  {
+    "id": "ast-mcp",
+    "name": "AST Code Analysis MCP",
+    "description": "Abstract Syntax Tree code structure analysis for understanding codebase architecture and patterns.",
+    "author": "angrysky56",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "ast-mcp-server"
+    ],
+    "tags": [
+      "ast",
+      "code-analysis",
+      "static-analysis",
+      "architecture",
+      "parsing"
+    ],
+    "url": "https://github.com/angrysky56/ast-mcp-server"
+  },
+  {
+    "id": "mcp-nftgo",
+    "name": "NFTGo MCP",
+    "description": "NFT data and analytics including collection stats, holder info, and market trends via NFTGo API.",
+    "author": "NFTGo",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "mcp-nftgo-api"
+    ],
+    "tags": [
+      "nft",
+      "blockchain",
+      "ethereum",
+      "analytics",
+      "web3"
+    ],
+    "url": "https://github.com/NFTGo/mcp-nftgo-api"
+  },
+  {
+    "id": "redshift-mcp",
+    "name": "Amazon Redshift MCP",
+    "description": "Query and analyze data in Amazon Redshift data warehouse using natural language SQL generation.",
+    "author": "vinodismyname",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "redshift-utils-mcp"
+    ],
+    "tags": [
+      "redshift",
+      "aws",
+      "data-warehouse",
+      "sql",
+      "analytics"
+    ],
+    "url": "https://github.com/vinodismyname/redshift-utils-mcp"
+  },
+  {
+    "id": "pubnub-mcp",
+    "name": "PubNub MCP",
+    "description": "Access PubNub SDK documentation and real-time messaging API references in AI code editors.",
+    "author": "stephenlb",
+    "category": "communication",
+    "command": "uvx",
+    "args": [
+      "pubnub-mcp-server"
+    ],
+    "tags": [
+      "pubnub",
+      "realtime",
+      "messaging",
+      "websockets",
+      "api"
+    ],
+    "url": "https://github.com/stephenlb/pubnub-mcp-server"
+  },
+  {
+    "id": "weather-mcp",
+    "name": "US Weather MCP",
+    "description": "US National Weather Service alerts, forecasts, and weather data for any US location.",
+    "author": "AlexShan2008",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "mcp-claude-weather"
+    ],
+    "tags": [
+      "weather",
+      "forecast",
+      "usa",
+      "national-weather-service",
+      "alerts"
+    ],
+    "url": "https://github.com/AlexShan2008/mcp-claude-weather"
+  },
+  {
+    "id": "mcp-go-colly",
+    "name": "Go Colly Web Crawler MCP",
+    "description": "Web crawling and scraping using the Go Colly framework for structured data extraction.",
+    "author": "bneil",
+    "category": "web",
+    "command": "docker",
+    "args": [
+      "run",
+      "-p",
+      "8080:8080",
+      "mcp-go-colly"
+    ],
+    "tags": [
+      "web-crawling",
+      "go",
+      "colly",
+      "scraping",
+      "data-extraction"
+    ],
+    "url": "https://github.com/bneil/mcp-go-colly"
+  },
+  {
+    "id": "crypto-rss",
+    "name": "Crypto RSS MCP",
+    "description": "Cryptocurrency news aggregation from multiple RSS feeds for real-time market sentiment analysis.",
+    "author": "kukapay",
+    "category": "finance",
+    "command": "uvx",
+    "args": [
+      "crypto-rss-mcp"
+    ],
+    "tags": [
+      "crypto",
+      "news",
+      "rss",
+      "bitcoin",
+      "market",
+      "sentiment"
+    ],
+    "url": "https://github.com/kukapay/crypto-rss-mcp"
+  },
+  {
+    "id": "mcp-linear-server",
+    "name": "Linear MCP Server (jerhadf)",
+    "description": "Linear project management integration for issue creation, updates, and team workflow tracking.",
+    "author": "jerhadf",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "linear-mcp-server"
+    ],
+    "tags": [
+      "linear",
+      "project-management",
+      "issues",
+      "roadmap",
+      "teams"
+    ],
+    "url": "https://github.com/jerhadf/linear-mcp-server"
+  },
+  {
+    "id": "agentops",
+    "name": "AgentOps MCP",
+    "description": "Observability and tracing for AI agents to monitor performance, costs, and debugging.",
+    "author": "AgentOps-AI",
+    "category": "monitoring",
+    "command": "uvx",
+    "args": [
+      "agentops-mcp"
+    ],
+    "tags": [
+      "agents",
+      "observability",
+      "tracing",
+      "debugging",
+      "llm-ops"
+    ],
+    "url": "https://github.com/AgentOps-AI/agentops"
+  },
+  {
+    "id": "mcp-ms365",
+    "name": "Office Word MCP (GongRzhe alternative)",
+    "description": "Full Microsoft 365 Graph API access including SharePoint, Teams, and OneDrive operations.",
+    "author": "softeria",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@softeria/ms-365-mcp-server"
+    ],
+    "tags": [
+      "microsoft",
+      "sharepoint",
+      "teams",
+      "onedrive",
+      "365"
+    ],
+    "url": "https://github.com/softeria/ms-365-mcp-server"
+  },
+  {
+    "id": "supabase-selfhosted",
+    "name": "Self-Hosted Supabase MCP",
+    "description": "MCP server for managing self-hosted Supabase instances with full database and auth control.",
+    "author": "HenkDz",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "selfhosted-supabase-mcp"
+    ],
+    "tags": [
+      "supabase",
+      "self-hosted",
+      "postgresql",
+      "auth",
+      "database"
+    ],
+    "url": "https://github.com/HenkDz/selfhosted-supabase-mcp"
+  },
+  {
+    "id": "mcp-server-google-search",
+    "name": "Google Programmable Search MCP",
+    "description": "Google Custom Search integration for domain-specific and filtered web search capabilities.",
+    "author": "1999AZZAR",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "mcp-server-google-search"
+    ],
+    "tags": [
+      "google",
+      "search",
+      "custom-search",
+      "web",
+      "api"
+    ],
+    "url": "https://github.com/1999AZZAR/mcp-server-google-search"
+  },
+  {
+    "id": "mcp-brave-search-community",
+    "name": "Brave Search MCP (community)",
+    "description": "Brave Search API integration providing privacy-first web search for AI assistants.",
+    "author": "thomasvan",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "mcp-brave-search"
+    ],
+    "tags": [
+      "brave",
+      "search",
+      "privacy",
+      "web",
+      "api"
+    ],
+    "url": "https://github.com/thomasvan/mcp-brave-search"
+  },
+  {
+    "id": "mcp-osrs",
+    "name": "RuneScape OSRS MCP",
+    "description": "Old School RuneScape Wiki data, game mechanics, item prices, and player statistics API.",
+    "author": "JayArrowz",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "mcp-osrs"
+    ],
+    "tags": [
+      "runescape",
+      "osrs",
+      "gaming",
+      "wiki",
+      "game-data"
+    ],
+    "url": "https://github.com/JayArrowz/mcp-osrs"
+  },
+  {
+    "id": "youtube-subtitles",
+    "name": "YouTube Subtitle Extractor MCP",
+    "description": "Extract subtitles and transcripts from YouTube videos for content analysis and summarization.",
+    "author": "RohitMidha23",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "youtube-mcp"
+    ],
+    "tags": [
+      "youtube",
+      "subtitles",
+      "transcripts",
+      "video",
+      "content"
+    ],
+    "url": "https://github.com/RohitMidha23/youtube-mcp"
+  },
+  {
+    "id": "k8s-mcp-server",
+    "name": "K8s MCP Toolkit",
+    "description": "Unified Kubernetes management interface combining kubectl, helm, istioctl, and argocd for EKS, GKE, AKS.",
+    "author": "alexei-led",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "k8s-mcp-server"
+    ],
+    "tags": [
+      "kubernetes",
+      "helm",
+      "istio",
+      "argocd",
+      "eks",
+      "gke",
+      "aks"
+    ],
+    "url": "https://github.com/alexei-led/k8s-mcp-server"
+  },
+  {
+    "id": "mcp-sysoperator",
+    "name": "SysOperator MCP",
+    "description": "Infrastructure as Code operations supporting Ansible, Terraform, and LocalStack for cloud management.",
+    "author": "tarnover",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-sysoperator"
+    ],
+    "tags": [
+      "ansible",
+      "terraform",
+      "localstack",
+      "iac",
+      "devops"
+    ],
+    "url": "https://github.com/tarnover/mcp-sysoperator"
+  },
+  {
+    "id": "argo-cd",
+    "name": "Argo CD MCP",
+    "description": "GitOps continuous delivery enabling natural language interactions with Kubernetes applications via Argo CD.",
+    "author": "argoproj-labs",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "mcp-argocd"
+    ],
+    "tags": [
+      "argocd",
+      "gitops",
+      "kubernetes",
+      "continuous-delivery",
+      "deployment"
+    ],
+    "url": "https://github.com/argoproj-labs/mcp-for-argocd"
+  },
+  {
+    "id": "mcp-netdata",
+    "name": "Netdata System Monitor MCP",
+    "description": "Real-time infrastructure monitoring with anomaly detection across hundreds of system metrics.",
+    "author": "netdata",
+    "category": "monitoring",
+    "command": "docker",
+    "args": [
+      "run",
+      "-p",
+      "19999:19999",
+      "netdata/netdata"
+    ],
+    "tags": [
+      "monitoring",
+      "metrics",
+      "system",
+      "performance",
+      "anomaly-detection"
+    ],
+    "url": "https://github.com/netdata/netdata/blob/master/src/web/mcp/README.md"
+  },
+  {
+    "id": "mcp-gateway",
+    "name": "Microsoft MCP Gateway",
+    "description": "Reverse proxy and management layer for MCP servers enabling scalable routing and load balancing.",
+    "author": "microsoft",
+    "category": "development",
+    "command": "docker",
+    "args": [
+      "run",
+      "microsoft/mcp-gateway"
+    ],
+    "tags": [
+      "proxy",
+      "gateway",
+      "routing",
+      "infrastructure",
+      "microsoft"
+    ],
+    "stars": 540,
+    "url": "https://github.com/microsoft/mcp-gateway"
+  },
+  {
+    "id": "agentql",
+    "name": "AgentQL MCP",
+    "description": "Extract structured data from web pages using AgentQL's semantic query language for AI agents.",
+    "author": "tinyfish-io",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "agentql-mcp"
+    ],
+    "tags": [
+      "web-scraping",
+      "semantic-query",
+      "data-extraction",
+      "structured-data",
+      "browser"
+    ],
+    "url": "https://github.com/tinyfish-io/agentql-mcp"
+  },
+  {
+    "id": "mcp-shopware",
+    "name": "Shopware MCP",
+    "description": "Shopware e-commerce plugin and bug-fixing automation for shop management and development.",
+    "author": "dithom",
+    "category": "web",
+    "command": "uvx",
+    "args": [
+      "shopware-mcp"
+    ],
+    "tags": [
+      "shopware",
+      "ecommerce",
+      "php",
+      "shop",
+      "plugins"
+    ],
+    "url": "https://github.com/dithom/shopware-mcp"
+  },
+  {
+    "id": "vibe-mcp",
+    "name": "Vibe Music MCP",
+    "description": "AI music generation triggered by coding context, creating background music based on what you build.",
+    "author": "trevhud",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "vibe-mcp"
+    ],
+    "tags": [
+      "music",
+      "ai",
+      "generation",
+      "audio",
+      "coding"
+    ],
+    "url": "https://github.com/trevhud/vibe-mcp"
+  },
+  {
+    "id": "mapbox-docs",
+    "name": "Mapbox Documentation MCP",
+    "description": "Access Mapbox documentation, API references, SDK guides, and code examples for location development.",
+    "author": "mapbox",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mapbox/mcp-server"
+    ],
+    "tags": [
+      "mapbox",
+      "maps",
+      "location",
+      "navigation",
+      "sdk",
+      "geospatial"
+    ],
+    "url": "https://github.com/mapbox/mcp-server"
+  },
+  {
+    "id": "mcp-quickmcp",
+    "name": "QuickMCP",
+    "description": "Rapidly create MCP servers from OpenAPI specifications without writing code.",
+    "author": "gunpal5",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "quickmcp"
+    ],
+    "tags": [
+      "openapi",
+      "code-generation",
+      "scaffold",
+      "api",
+      "automation"
+    ],
+    "url": "https://github.com/gunpal5/QuickMCP"
+  },
+  {
+    "id": "mcp-ipgeolocation",
+    "name": "IPGeolocation MCP",
+    "description": "IP geolocation, security intelligence, ASN lookups, timezone conversions, and user-agent parsing.",
+    "author": "ipgeolocation",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@ipgeolocation/mcp"
+    ],
+    "tags": [
+      "ip",
+      "geolocation",
+      "security",
+      "asn",
+      "timezone"
+    ],
+    "url": "https://github.com/ipgeolocation/ipgeolocation-mcp"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw MCP",
+    "description": "Render hand-drawn style diagrams using Excalidraw with streaming SVG animations and real-time effects.",
+    "author": "excalidraw",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@excalidraw/mcp"
+    ],
+    "tags": [
+      "diagrams",
+      "drawing",
+      "visualization",
+      "svg",
+      "whiteboard"
+    ],
+    "url": "https://github.com/excalidraw/excalidraw"
+  },
+  {
+    "id": "airflow-mcp-dag",
+    "name": "Airflow DAG Runner MCP",
+    "description": "Trigger, monitor, and manage Apache Airflow DAGs and task instances programmatically.",
+    "author": "hipposys-ltd",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "airflow-mcp-server"
+    ],
+    "tags": [
+      "airflow",
+      "dags",
+      "data-pipeline",
+      "orchestration",
+      "scheduling"
+    ],
+    "url": "https://github.com/hipposys-ltd/airflow-mcp"
+  },
+  {
+    "id": "mcp-server-nansen",
+    "name": "Nansen Blockchain Analytics MCP",
+    "description": "On-chain analytics with Smart Money tracking, wallet profiling, and token analytics via Nansen API.",
+    "author": "nansen-ai",
+    "category": "finance",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@nansen/mcp-server"
+    ],
+    "tags": [
+      "blockchain",
+      "analytics",
+      "defi",
+      "smart-money",
+      "on-chain"
+    ],
+    "url": "https://github.com/nansen-ai/nansen-mcp"
+  },
+  {
+    "id": "mcp-server-bigquery-google",
+    "name": "Google Cloud BigQuery MCP",
+    "description": "Enterprise BigQuery integration with AlloyDB, Cloud SQL, Firestore, and Bigtable support via GCP.",
+    "author": "googleapis",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "genai-toolbox"
+    ],
+    "tags": [
+      "bigquery",
+      "gcp",
+      "google-cloud",
+      "alloydb",
+      "firestore",
+      "cloud-sql"
+    ],
+    "url": "https://github.com/googleapis/genai-toolbox"
+  },
+  {
+    "id": "mcp-firecrawl-vrknetha",
+    "name": "Firecrawl Advanced MCP",
+    "description": "Advanced web scraping via Firecrawl API with parallel processing, retries, and content filtering.",
+    "author": "vrknetha",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-firecrawl"
+    ],
+    "tags": [
+      "web-scraping",
+      "firecrawl",
+      "crawling",
+      "extraction",
+      "parallel"
+    ],
+    "url": "https://github.com/vrknetha/mcp-server-firecrawl"
+  },
+  {
+    "id": "mcp-server-neon-community",
+    "name": "Neon Serverless Postgres MCP",
+    "description": "Serverless PostgreSQL branch management, query execution, and schema operations via Neon API.",
+    "author": "neondatabase",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@neondatabase/mcp-server-neon"
+    ],
+    "tags": [
+      "neon",
+      "postgresql",
+      "serverless",
+      "branching",
+      "database"
+    ],
+    "url": "https://github.com/neondatabase/mcp-server-neon"
+  },
+  {
+    "id": "mcp-server-everything-search",
+    "name": "Windows Everything Search MCP",
+    "description": "Instant file search across the entire Windows filesystem using Everything's indexed search.",
+    "author": "mamertofabian",
+    "category": "files",
+    "command": "uvx",
+    "args": [
+      "mcp-everything-search"
+    ],
+    "tags": [
+      "windows",
+      "search",
+      "files",
+      "instant",
+      "filesystem",
+      "index"
+    ],
+    "url": "https://github.com/mamertofabian/mcp-everything-search"
+  },
+  {
+    "id": "mcp-server-aws-bedrock",
+    "name": "AWS Bedrock KB Retrieval MCP",
+    "description": "Retrieve and query content from AWS Bedrock Knowledge Bases for enterprise RAG applications.",
+    "author": "modelcontextprotocol",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-aws-kb-retrieval"
+    ],
+    "tags": [
+      "aws",
+      "bedrock",
+      "rag",
+      "knowledge-base",
+      "enterprise"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval"
+  },
+  {
+    "id": "mcp-server-slack-official",
+    "name": "Slack MCP Server",
+    "description": "Official Slack MCP server for channel management, message posting, and workspace operations.",
+    "author": "modelcontextprotocol",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack"
+    ],
+    "tags": [
+      "slack",
+      "messaging",
+      "workspace",
+      "channels",
+      "teams"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack"
+  },
+  {
+    "id": "mcp-server-postgres-official",
+    "name": "PostgreSQL MCP (Official)",
+    "description": "Official PostgreSQL MCP server with read-only query execution and schema inspection.",
+    "author": "modelcontextprotocol",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres"
+    ],
+    "tags": [
+      "postgresql",
+      "sql",
+      "database",
+      "schema",
+      "read-only"
+    ],
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
+  },
+  {
+    "id": "mcp-kube-flux",
+    "name": "Kubernetes Flux MCP",
+    "description": "Kubernetes pod, deployment, and service operations with comprehensive cluster resource management.",
+    "author": "Flux159",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-kubernetes"
+    ],
+    "tags": [
+      "kubernetes",
+      "flux",
+      "deployments",
+      "pods",
+      "services"
+    ],
+    "url": "https://github.com/Flux159/mcp-server-kubernetes"
+  },
+  {
+    "id": "mcp-server-openshift",
+    "name": "OpenShift MCP",
+    "description": "Model Context Protocol server for Kubernetes and OpenShift cluster management and operations.",
+    "author": "openshift",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "openshift-mcp-server"
+    ],
+    "tags": [
+      "openshift",
+      "kubernetes",
+      "redhat",
+      "containers",
+      "devops"
+    ],
+    "url": "https://github.com/openshift/openshift-mcp-server"
+  },
+  {
+    "id": "mcp-server-rancher",
+    "name": "Rancher MCP",
+    "description": "Enterprise Kubernetes management with Harvester HCI and Fleet GitOps for multi-cluster operations.",
+    "author": "rancher",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "rancher-mcp-server"
+    ],
+    "tags": [
+      "rancher",
+      "kubernetes",
+      "enterprise",
+      "multi-cluster",
+      "gitops"
+    ],
+    "url": "https://github.com/rancher/mcp-server-rancher"
+  },
+  {
+    "id": "mcp-server-jenkins",
+    "name": "Jenkins MCP Plugin",
+    "description": "Official Jenkins plugin implementing MCP server for CI/CD pipeline management and build operations.",
+    "author": "jenkinsci",
+    "category": "development",
+    "command": "docker",
+    "args": [
+      "run",
+      "-p",
+      "8080:8080",
+      "jenkins/jenkins"
+    ],
+    "tags": [
+      "jenkins",
+      "ci-cd",
+      "builds",
+      "pipelines",
+      "automation"
+    ],
+    "url": "https://plugins.jenkins.io/mcp-server"
+  },
+  {
+    "id": "mcp-server-render",
+    "name": "Render MCP",
+    "description": "Deploy web services, static sites, databases, and cron jobs on Render cloud platform.",
+    "author": "render-oss",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@render/mcp-server"
+    ],
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "hosting",
+      "databases"
+    ],
+    "url": "https://github.com/render-oss/render-mcp"
+  },
+  {
+    "id": "mcp-server-railway",
+    "name": "Railway MCP",
+    "description": "Instant application deployment from Git with automatic infrastructure and database provisioning.",
+    "author": "railway",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@railway/mcp"
+    ],
+    "tags": [
+      "railway",
+      "deployment",
+      "hosting",
+      "databases",
+      "git"
+    ],
+    "url": "https://github.com/railwayapp/railway-mcp"
+  },
+  {
+    "id": "mcp-server-netlify",
+    "name": "Netlify MCP",
+    "description": "Serverless deployment and hosting on Netlify with automatic builds, deploys, and environment management.",
+    "author": "netlify",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "netlify-mcp"
+    ],
+    "tags": [
+      "netlify",
+      "deployment",
+      "jamstack",
+      "serverless",
+      "hosting"
+    ],
+    "url": "https://github.com/netlify/netlify-mcp"
+  },
+  {
+    "id": "mcp-server-vercel",
+    "name": "Vercel MCP Handler",
+    "description": "Official Vercel MCP adapter for Next.js, Nuxt, and SvelteKit with optimized serverless deployment.",
+    "author": "vercel",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@vercel/mcp-adapter"
+    ],
+    "tags": [
+      "vercel",
+      "nextjs",
+      "deployment",
+      "serverless",
+      "edge"
+    ],
+    "url": "https://github.com/vercel/mcp-handler"
+  },
+  {
+    "id": "mcp-server-pulumi",
+    "name": "Pulumi MCP",
+    "description": "AI-assisted Infrastructure as Code using Pulumi for multi-cloud resource provisioning.",
+    "author": "pulumi",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@pulumi/mcp-server"
+    ],
+    "tags": [
+      "pulumi",
+      "iac",
+      "cloud",
+      "infrastructure",
+      "multi-cloud"
+    ],
+    "url": "https://github.com/pulumi/pulumi-mcp-server"
+  },
+  {
+    "id": "mcp-server-fly-io",
+    "name": "Fly.io MCP",
+    "description": "Edge computing deployment on Fly.io with Firecracker VMs and low-latency global distribution.",
+    "author": "fly-apps",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "flyio-mcp"
+    ],
+    "tags": [
+      "fly-io",
+      "edge-computing",
+      "deployment",
+      "vms",
+      "global"
+    ],
+    "url": "https://github.com/fly-apps/fly-mcp"
+  },
+  {
+    "id": "mcp-server-discord",
+    "name": "Discord MCP (Klavis)",
+    "description": "Discord server and channel management for sending messages, reading history, and managing reactions.",
+    "author": "Klavis-AI",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@klavis/discord-mcp"
+    ],
+    "tags": [
+      "discord",
+      "messaging",
+      "community",
+      "bot",
+      "communication"
+    ],
+    "url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/discord"
+  },
+  {
+    "id": "mcp-server-apollo",
+    "name": "Apollo GraphQL MCP",
+    "description": "Connect GraphQL APIs to AI agents using Apollo's MCP server for schema introspection and queries.",
+    "author": "apollographql",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@apollo/mcp-server"
+    ],
+    "tags": [
+      "graphql",
+      "apollo",
+      "api",
+      "schema",
+      "queries"
+    ],
+    "url": "https://github.com/apollographql/apollo-mcp-server"
+  },
+  {
+    "id": "mcp-server-appium",
+    "name": "Appium MCP",
+    "description": "Mobile application testing and automation for iOS and Android via Appium framework.",
+    "author": "appium",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "appium-mcp"
+    ],
+    "tags": [
+      "appium",
+      "mobile",
+      "testing",
+      "ios",
+      "android",
+      "automation"
+    ],
+    "url": "https://github.com/appium/appium-mcp"
+  },
+  {
+    "id": "mcp-server-amplitude",
+    "name": "Amplitude MCP",
+    "description": "Product analytics and A/B experimentation integration for user behavior analysis and feature flags.",
+    "author": "amplitude",
+    "category": "monitoring",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@amplitude/mcp-server"
+    ],
+    "tags": [
+      "amplitude",
+      "analytics",
+      "product",
+      "a-b-testing",
+      "user-behavior"
+    ],
+    "url": "https://github.com/amplitude/amplitude-mcp"
+  },
+  {
+    "id": "mcp-server-algolia",
+    "name": "Algolia MCP",
+    "description": "Provision and query Algolia search indices for implementing fast, relevant search experiences.",
+    "author": "algolia",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@algolia/mcp-server-algolia"
+    ],
+    "tags": [
+      "algolia",
+      "search",
+      "index",
+      "full-text",
+      "relevance"
+    ],
+    "url": "https://github.com/algolia/mcp-server-algolia"
+  },
+  {
+    "id": "mcp-server-airtable-felores",
+    "name": "Airtable MCP (felores)",
+    "description": "Full Airtable API access for managing bases, tables, records, and field configurations.",
+    "author": "felores",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "airtable-mcp"
+    ],
+    "tags": [
+      "airtable",
+      "database",
+      "no-code",
+      "tables",
+      "records"
+    ],
+    "url": "https://github.com/felores/airtable-mcp"
+  },
+  {
+    "id": "mcp-server-pinata",
+    "name": "Pinata IPFS MCP",
+    "description": "Access Pinata's API for IPFS file operations, pinning, and decentralized storage management.",
+    "author": "PinataCloud",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@pinata/mcp-server"
+    ],
+    "tags": [
+      "ipfs",
+      "pinata",
+      "decentralized",
+      "storage",
+      "web3"
+    ],
+    "url": "https://github.com/PinataCloud/pinata-mcp"
+  },
+  {
+    "id": "mcp-server-dbt",
+    "name": "dbt MCP",
+    "description": "Data build tool integration for managing dbt models, running transformations, and exploring schemas.",
+    "author": "dbt-labs",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "dbt-mcp"
+    ],
+    "tags": [
+      "dbt",
+      "data-transformation",
+      "analytics-engineering",
+      "sql",
+      "models"
+    ],
+    "url": "https://github.com/dbt-labs/dbt-mcp"
+  },
+  {
+    "id": "mcp-server-nx-workspace",
+    "name": "Nx Workspace MCP",
+    "description": "Nx Console MCP for AI-powered monorepo management including task running and project configuration.",
+    "author": "nrwl",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@nx/mcp"
+    ],
+    "tags": [
+      "nx",
+      "monorepo",
+      "angular",
+      "react",
+      "workspace",
+      "build"
+    ],
+    "url": "https://github.com/nrwl/nx-console"
+  },
+  {
+    "id": "mcp-server-skyvern-community",
+    "name": "Skyvern Community MCP",
+    "description": "AI-powered browser automation for complex web tasks using LLMs and computer vision.",
+    "author": "Skyvern-AI",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": [
+      "-y",
+      "skyvern-mcp"
+    ],
+    "tags": [
+      "browser",
+      "automation",
+      "computer-vision",
+      "web",
+      "tasks"
+    ],
+    "url": "https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp"
+  },
+  {
+    "id": "mcp-server-notion-official",
+    "name": "Notion MCP (Official)",
+    "description": "Official Notion MCP server for searching pages, querying databases, and managing workspace content.",
+    "author": "makenotion",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@notionhq/notion-mcp-server"
+    ],
+    "tags": [
+      "notion",
+      "notes",
+      "database",
+      "pages",
+      "workspace"
+    ],
+    "url": "https://github.com/makenotion/notion-mcp-server"
+  },
+  {
+    "id": "mcp-server-composio",
+    "name": "Composio MCP Gateway",
+    "description": "Universal MCP gateway connecting 500+ apps including Slack, GitHub, Notion, and Gmail for workflow automation.",
+    "author": "ComposioHQ",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "composio-core"
+    ],
+    "tags": [
+      "integration",
+      "automation",
+      "multi-app",
+      "workflow",
+      "gateway"
+    ],
+    "url": "https://github.com/ComposioHQ/composio"
+  },
+  {
+    "id": "mcp-server-neon-db",
+    "name": "Neon Postgres Branching MCP",
+    "description": "Manage Neon PostgreSQL branches for development, testing, and production workflows programmatically.",
+    "author": "neondatabase",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-neon"
+    ],
+    "tags": [
+      "neon",
+      "postgresql",
+      "branching",
+      "development",
+      "testing"
+    ],
+    "url": "https://github.com/neondatabase/mcp-server-neon"
+  },
+  {
+    "id": "mcp-server-pulsar",
+    "name": "Apache Pulsar MCP",
+    "description": "Manage Apache Pulsar messaging topics, subscriptions, and producer/consumer operations via MCP.",
+    "author": "apache",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "pulsar-mcp"
+    ],
+    "tags": [
+      "pulsar",
+      "messaging",
+      "streaming",
+      "topics",
+      "pub-sub"
+    ],
+    "url": "https://github.com/streamnative/pulsar-mcp"
+  },
+  {
+    "id": "mcp-server-mssql",
+    "name": "SQL Server MCP",
+    "description": "Microsoft SQL Server integration with schema inspection, query execution, and database management.",
+    "author": "dab-apps",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mssql-mcp-server"
+    ],
+    "tags": [
+      "sql-server",
+      "microsoft",
+      "mssql",
+      "database",
+      "sql"
+    ],
+    "url": "https://github.com/dab-apps/mssql-mcp-server"
+  },
+  {
+    "id": "mcp-server-zapier",
+    "name": "Zapier MCP",
+    "description": "Automate workflows across Gmail, Sheets, CRM, and 5,000+ apps using Zapier's MCP integration.",
+    "author": "zapier",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@zapier/mcp-server"
+    ],
+    "tags": [
+      "zapier",
+      "automation",
+      "workflow",
+      "integration",
+      "gmail",
+      "sheets"
+    ],
+    "url": "https://zapier.com/mcp"
+  },
+  {
+    "id": "mcp-server-aws-cdk",
+    "name": "AWS CDK MCP",
+    "description": "AWS CDK infrastructure advice and deployment assistance with best practice recommendations.",
+    "author": "awslabs",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "awslabs.cdk-mcp-server"
+    ],
+    "tags": [
+      "aws",
+      "cdk",
+      "infrastructure",
+      "cloudformation",
+      "deployment"
+    ],
+    "url": "https://github.com/awslabs/mcp/tree/main/src/cdk-mcp-server"
+  },
+  {
+    "id": "mcp-server-clickhouse",
+    "name": "ClickHouse MCP",
+    "description": "High-performance analytics on ClickHouse columnar database for massive dataset queries.",
+    "author": "ClickHouse",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "clickhouse-mcp"
+    ],
+    "tags": [
+      "clickhouse",
+      "analytics",
+      "columnar",
+      "olap",
+      "database"
+    ],
+    "url": "https://github.com/ClickHouse/mcp-clickhouse"
+  },
+  {
+    "id": "mcp-server-elasticsearch",
+    "name": "Elasticsearch MCP",
+    "description": "Log analysis, full-text search, and complex query execution on Elasticsearch clusters.",
+    "author": "elastic",
+    "category": "databases",
+    "command": "uvx",
+    "args": [
+      "elasticsearch-mcp-server"
+    ],
+    "tags": [
+      "elasticsearch",
+      "search",
+      "logs",
+      "full-text",
+      "kibana"
+    ],
+    "url": "https://github.com/elastic/elasticsearch-mcp"
+  },
+  {
+    "id": "mcp-server-shopify",
+    "name": "Shopify MCP",
+    "description": "Shopify e-commerce store management for products, orders, customers, and inventory operations.",
+    "author": "Shopify",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@shopify/mcp-server"
+    ],
+    "tags": [
+      "shopify",
+      "ecommerce",
+      "products",
+      "orders",
+      "inventory"
+    ],
+    "url": "https://github.com/Shopify/shopify-mcp-server"
+  },
+  {
+    "id": "mcp-server-sendgrid",
+    "name": "SendGrid Email MCP",
+    "description": "Send and manage transactional and marketing emails through SendGrid's email delivery API.",
+    "author": "twilio",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "sendgrid-mcp-server"
+    ],
+    "tags": [
+      "sendgrid",
+      "email",
+      "transactional",
+      "marketing",
+      "twilio"
+    ],
+    "url": "https://github.com/twilio-labs/sendgrid-mcp"
+  },
+  {
+    "id": "mcp-server-jira",
+    "name": "Jira MCP (community)",
+    "description": "Jira issue and project management for creating, updating, and querying tickets and sprints.",
+    "author": "raj-mehra",
+    "category": "productivity",
+    "command": "uvx",
+    "args": [
+      "jira-mcp-server"
+    ],
+    "tags": [
+      "jira",
+      "project-management",
+      "issues",
+      "sprints",
+      "agile"
+    ],
+    "url": "https://github.com/raj-mehra/jira-mcp"
+  },
+  {
+    "id": "mcp-server-openapi",
+    "name": "OpenAPI Integrator MCP",
+    "description": "Connect any OpenAPI-documented REST API to AI agents without writing custom integration code.",
+    "author": "slot181",
+    "category": "development",
+    "command": "uvx",
+    "args": [
+      "openapi-integrator-mcp"
+    ],
+    "tags": [
+      "openapi",
+      "rest-api",
+      "swagger",
+      "integration",
+      "automation"
+    ],
+    "url": "https://github.com/slot181/openapi-integrator-mcp"
+  },
+  {
+    "id": "mcp-server-twilio",
+    "name": "Twilio MCP",
+    "description": "Send SMS, make calls, and manage phone numbers and messaging services via Twilio API.",
+    "author": "twilio",
+    "category": "communication",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@twilio-alpha/mcp"
+    ],
+    "tags": [
+      "twilio",
+      "sms",
+      "voice",
+      "phone",
+      "communication"
+    ],
+    "url": "https://github.com/twilio/twilio-mcp"
+  },
+  {
+    "id": "mcp-server-postman",
+    "name": "Postman MCP",
+    "description": "API testing and management integration for Postman collections, environments, and testing workflows.",
+    "author": "postmanlabs",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "postman-mcp-server"
+    ],
+    "tags": [
+      "postman",
+      "api-testing",
+      "rest",
+      "collections",
+      "testing"
+    ],
+    "url": "https://github.com/postmanlabs/postman-mcp-server"
+  },
+  {
+    "id": "mcp-server-safe-line",
+    "name": "SafeLine WAF MCP",
+    "description": "Web Application Firewall security management and threat analysis via SafeLine API integration.",
+    "author": "chaitin",
+    "category": "monitoring",
+    "command": "uvx",
+    "args": [
+      "safeline-mcp-server"
+    ],
+    "tags": [
+      "waf",
+      "security",
+      "web",
+      "firewall",
+      "protection"
+    ],
+    "url": "https://github.com/chaitin/SafeLine/tree/main/mcp_server"
+  },
+  {
+    "id": "mcp-server-monday",
+    "name": "Monday.com MCP",
+    "description": "Project management and team collaboration on Monday.com boards, items, and workflow automation.",
+    "author": "mondaydotcom",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "monday-mcp-server"
+    ],
+    "tags": [
+      "monday",
+      "project-management",
+      "boards",
+      "workflow",
+      "collaboration"
+    ],
+    "url": "https://github.com/mondaydotcom/monday-mcp"
+  },
+  {
+    "id": "mcp-server-elevenlabs",
+    "name": "ElevenLabs MCP",
+    "description": "AI text-to-speech synthesis, voice cloning, and audio generation via ElevenLabs API.",
+    "author": "elevenlabs",
+    "category": "ai",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@elevenlabs/mcp"
+    ],
+    "tags": [
+      "text-to-speech",
+      "voice-cloning",
+      "audio",
+      "tts",
+      "elevenlabs"
+    ],
+    "url": "https://github.com/elevenlabs/elevenlabs-mcp"
+  },
+  {
+    "id": "mcp-server-trello",
+    "name": "Trello MCP",
+    "description": "Kanban board management for creating and organizing cards, lists, and boards in Trello.",
+    "author": "tmash06",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "trello-mcp-server"
+    ],
+    "tags": [
+      "trello",
+      "kanban",
+      "cards",
+      "boards",
+      "project-management"
+    ],
+    "url": "https://github.com/tmash06/trello-mcp"
+  },
+  {
+    "id": "mcp-server-asana",
+    "name": "Asana MCP",
+    "description": "Task and project management integration for Asana workspaces, projects, and team collaboration.",
+    "author": "asana",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "asana-mcp-server"
+    ],
+    "tags": [
+      "asana",
+      "tasks",
+      "projects",
+      "team",
+      "productivity"
+    ],
+    "url": "https://github.com/asana/asana-mcp-server"
+  },
+  {
+    "id": "mcp-server-github-actions",
+    "name": "GitHub Actions MCP",
+    "description": "Trigger, monitor, and manage GitHub Actions workflow runs and CI/CD pipelines programmatically.",
+    "author": "github",
+    "category": "development",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@github/actions-mcp"
+    ],
+    "tags": [
+      "github-actions",
+      "ci-cd",
+      "workflow",
+      "automation",
+      "devops"
+    ],
+    "url": "https://github.com/github/github-mcp-server"
+  },
+  {
+    "id": "mcp-server-minimax",
+    "name": "MiniMax MCP",
+    "description": "AI text-to-speech, image generation, and video creation APIs via MiniMax platform.",
+    "author": "MiniMax-AI",
+    "category": "ai",
+    "command": "uvx",
+    "args": [
+      "minimax-mcp"
+    ],
+    "tags": [
+      "text-to-speech",
+      "image-generation",
+      "video",
+      "ai",
+      "minimax"
+    ],
+    "url": "https://github.com/MiniMax-AI/MiniMax-MCP"
+  },
+  {
+    "id": "mcp-server-agentql",
+    "name": "AgentQL Structured Extraction MCP",
+    "description": "Extract precise structured data from web pages using AgentQL's AI-powered semantic query language.",
+    "author": "tinyfish-io",
+    "category": "web",
+    "command": "npx",
+    "args": [
+      "-y",
+      "agentql-mcp@latest"
+    ],
+    "tags": [
+      "web-scraping",
+      "structured-data",
+      "semantic",
+      "extraction",
+      "browser"
+    ],
+    "url": "https://github.com/tinyfish-io/agentql-mcp"
+  },
+  {
+    "id": "mcp-server-safeline-community",
+    "name": "Web Security Scanner MCP",
+    "description": "Automated web application security scanning and vulnerability assessment for AI-assisted security testing.",
+    "author": "chaitin",
+    "category": "monitoring",
+    "command": "docker",
+    "args": [
+      "run",
+      "chaitin/safeline-mcp"
+    ],
+    "tags": [
+      "security",
+      "scanning",
+      "vulnerabilities",
+      "web",
+      "testing"
+    ],
+    "url": "https://github.com/chaitin/SafeLine"
+  },
+  {
+    "id": "mcp-server-google-analytics",
+    "name": "Google Analytics MCP",
+    "description": "Access Google Analytics data for traffic analysis, user behavior, and conversion tracking.",
+    "author": "google",
+    "category": "monitoring",
+    "command": "uvx",
+    "args": [
+      "google-analytics-mcp"
+    ],
+    "tags": [
+      "google-analytics",
+      "traffic",
+      "analytics",
+      "conversions",
+      "reporting"
+    ],
+    "url": "https://github.com/google/google-analytics-mcp"
+  },
+  {
+    "id": "mcp-server-notion-community",
+    "name": "Notion Community MCP",
+    "description": "Enhanced Notion API integration for page creation, database queries, and content management.",
+    "author": "orbit-logistics",
+    "category": "productivity",
+    "command": "uvx",
+    "args": [
+      "notion-mcp-server"
+    ],
+    "tags": [
+      "notion",
+      "pages",
+      "databases",
+      "content",
+      "workspace"
+    ],
+    "url": "https://github.com/orbit-logistics/notion-mcp-server"
+  },
+  {
+    "id": "mcp-server-hubspot",
+    "name": "HubSpot MCP",
+    "description": "CRM integration for managing HubSpot contacts, companies, deals, and marketing automation.",
+    "author": "hubspot",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hubspot/mcp-server"
+    ],
+    "tags": [
+      "hubspot",
+      "crm",
+      "contacts",
+      "deals",
+      "marketing"
+    ],
+    "url": "https://github.com/hubspot/hubspot-mcp-server"
+  },
+  {
+    "id": "mcp-server-salesforce",
+    "name": "Salesforce MCP",
+    "description": "Salesforce CRM integration for querying objects, managing records, and running SOQL queries.",
+    "author": "salesforce",
+    "category": "productivity",
+    "command": "npx",
+    "args": [
+      "-y",
+      "salesforce-mcp"
+    ],
+    "tags": [
+      "salesforce",
+      "crm",
+      "soql",
+      "records",
+      "enterprise"
+    ],
+    "url": "https://github.com/salesforce/salesforce-mcp"
   }
 ]
