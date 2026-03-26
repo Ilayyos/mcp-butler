@@ -37,7 +37,7 @@ function writeCache(cachePath: string, servers: MCPServer[]): void {
 }
 
 function readBundled(): MCPServer[] {
-  const bundledPath = path.join(__dirname, '../../registry/servers.json');
+  const bundledPath = path.join(__dirname, '../registry/servers.json');
   const raw = fs.readFileSync(bundledPath, 'utf-8');
   return JSON.parse(raw) as MCPServer[];
 }

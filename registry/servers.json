@@ -1,1 +1,251 @@
-[]
+[
+  {
+    "id": "filesystem",
+    "name": "Filesystem",
+    "description": "Read and write files on your local filesystem securely",
+    "author": "modelcontextprotocol",
+    "category": "files",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      { "name": "allowed-path", "description": "Directory path to allow access to", "required": true }
+    ],
+    "tags": ["files", "local", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "description": "Search repos, manage issues and PRs via GitHub API",
+    "author": "modelcontextprotocol",
+    "category": "git",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-github"],
+    "tags": ["github", "git", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github"
+  },
+  {
+    "id": "postgres",
+    "name": "PostgreSQL",
+    "description": "Query and explore PostgreSQL databases",
+    "author": "modelcontextprotocol",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-postgres",
+      { "name": "connection-string", "description": "PostgreSQL connection string (e.g. postgresql://user:pass@localhost/db)", "required": true }
+    ],
+    "tags": ["postgres", "sql", "database", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "description": "Query SQLite databases and run business intelligence queries",
+    "author": "modelcontextprotocol",
+    "category": "databases",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sqlite",
+      { "name": "db-path", "description": "Path to the SQLite database file", "required": true }
+    ],
+    "tags": ["sqlite", "sql", "database", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
+  },
+  {
+    "id": "brave-search",
+    "name": "Brave Search",
+    "description": "Web and local search via the Brave Search API",
+    "author": "modelcontextprotocol",
+    "category": "web",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+    "tags": ["search", "web", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search"
+  },
+  {
+    "id": "fetch",
+    "name": "Fetch",
+    "description": "Fetch web pages and convert them to Markdown for LLM consumption",
+    "author": "modelcontextprotocol",
+    "category": "web",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-fetch"],
+    "tags": ["web", "http", "markdown", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
+  },
+  {
+    "id": "memory",
+    "name": "Memory",
+    "description": "Persistent key-value memory store using a knowledge graph",
+    "author": "modelcontextprotocol",
+    "category": "productivity",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-memory"],
+    "tags": ["memory", "knowledge-graph", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory"
+  },
+  {
+    "id": "puppeteer",
+    "name": "Puppeteer",
+    "description": "Browser automation and web scraping with Puppeteer",
+    "author": "modelcontextprotocol",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-puppeteer"],
+    "tags": ["browser", "puppeteer", "automation", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "description": "Send messages and search Slack channels",
+    "author": "modelcontextprotocol",
+    "category": "productivity",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-slack"],
+    "tags": ["slack", "messaging", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack"
+  },
+  {
+    "id": "google-maps",
+    "name": "Google Maps",
+    "description": "Search places, get directions, and explore geocoding via Google Maps",
+    "author": "modelcontextprotocol",
+    "category": "web",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-google-maps"],
+    "tags": ["maps", "geocoding", "google", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
+  },
+  {
+    "id": "sequential-thinking",
+    "name": "Sequential Thinking",
+    "description": "Dynamic problem-solving through structured sequential thought chains",
+    "author": "modelcontextprotocol",
+    "category": "productivity",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+    "tags": ["reasoning", "thinking", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "description": "Read git history, diffs, and commit logs from local repositories",
+    "author": "modelcontextprotocol",
+    "category": "git",
+    "command": "uvx",
+    "args": [
+      "mcp-server-git",
+      "--repository",
+      { "name": "repo-path", "description": "Path to the git repository", "required": true }
+    ],
+    "tags": ["git", "version-control", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git"
+  },
+  {
+    "id": "time",
+    "name": "Time",
+    "description": "Get current time and convert between timezones",
+    "author": "modelcontextprotocol",
+    "category": "productivity",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-time"],
+    "tags": ["time", "timezone", "official"],
+    "stars": 8200,
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time"
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "description": "Query and analyze Sentry issues, events, and stack traces",
+    "author": "getsentry",
+    "category": "development",
+    "command": "uvx",
+    "args": ["mcp-server-sentry"],
+    "tags": ["sentry", "errors", "monitoring"],
+    "url": "https://github.com/getsentry/sentry-mcp"
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "description": "Search and manage Linear issues, projects, and cycles",
+    "author": "linear",
+    "category": "productivity",
+    "command": "npx",
+    "args": ["-y", "@linear/mcp-server"],
+    "tags": ["linear", "issues", "project-management"],
+    "url": "https://github.com/linear/linear-mcp"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "description": "Query Stripe payments, customers, and subscriptions",
+    "author": "stripe",
+    "category": "web",
+    "command": "npx",
+    "args": ["-y", "@stripe/mcp"],
+    "tags": ["stripe", "payments", "billing"],
+    "url": "https://github.com/stripe/agent-toolkit"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "description": "Read and search Notion pages, databases, and blocks",
+    "author": "makenotion",
+    "category": "productivity",
+    "command": "npx",
+    "args": ["-y", "@notionhq/notion-mcp-server"],
+    "tags": ["notion", "notes", "docs"],
+    "url": "https://github.com/makenotion/notion-mcp-server"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "description": "Interact with Redis key-value store — get, set, list, and search keys",
+    "author": "redis",
+    "category": "databases",
+    "command": "npx",
+    "args": ["-y", "mcp-redis"],
+    "tags": ["redis", "cache", "database"],
+    "url": "https://github.com/redis/mcp-redis"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "description": "Browser automation and end-to-end testing via Playwright",
+    "author": "microsoft",
+    "category": "browser-automation",
+    "command": "npx",
+    "args": ["-y", "@playwright/mcp"],
+    "tags": ["playwright", "browser", "testing"],
+    "url": "https://github.com/microsoft/playwright-mcp"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "Manage Docker containers, images, volumes, and networks",
+    "author": "docker",
+    "category": "development",
+    "command": "docker",
+    "args": ["run", "-i", "--rm", "mcp/docker"],
+    "tags": ["docker", "containers", "devops"],
+    "url": "https://github.com/docker/mcp-servers"
+  }
+]
