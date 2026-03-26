@@ -5,7 +5,7 @@ import os from 'os';
 import type { MCPServer, CacheFile } from '../types';
 
 const REGISTRY_URL =
-  'https://raw.githubusercontent.com/Ilayyos/mcp-hub/main/registry/servers.json';
+  'https://raw.githubusercontent.com/Ilayyos/mcp-butler/main/registry/servers.json';
 const CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour
 
 function getCachePath(): string | null {
