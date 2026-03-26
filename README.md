@@ -1,27 +1,27 @@
-# mcp-hub
+# mcp-get
 
 > The missing package manager for MCP servers.
 
-[![npm version](https://img.shields.io/npm/v/mcp-hub)](https://www.npmjs.com/package/mcp-hub)
+[![npm version](https://img.shields.io/npm/v/mcp-get)](https://www.npmjs.com/package/mcp-get)
 [![Registry](https://img.shields.io/badge/servers-20%2B-blue)](registry/servers.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-`mcp-hub` helps you discover and install [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers into Claude Desktop — no manual config editing required.
+`mcp-get` helps you discover and install [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers into Claude Desktop — no manual config editing required.
 
 ## Quick Start
 
 ```bash
 # Search for servers
-npx mcp-hub@latest search database
+npx mcp-get@latest search database
 
 # Browse all servers
-npx mcp-hub@latest list
+npx mcp-get@latest list
 
 # See details for a server
-npx mcp-hub@latest info postgres
+npx mcp-get@latest info postgres
 
 # Install a server into Claude Desktop
-npx mcp-hub@latest install postgres
+npx mcp-get@latest install postgres
 ```
 
 ## Commands

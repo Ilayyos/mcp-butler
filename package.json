@@ -1,8 +1,8 @@
 {
-  "name": "mcp-hub",
+  "name": "mcp-get",
   "version": "0.1.0",
   "description": "Discover and install MCP servers for Claude Desktop",
-  "bin": { "mcp-hub": "./dist/index.js" },
+  "bin": { "mcp-get": "./dist/index.js" },
   "files": ["dist", "registry"],
   "scripts": {
     "build": "tsup src/index.ts --format cjs --clean",
