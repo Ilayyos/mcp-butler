@@ -80,7 +80,7 @@ export async function getRegistry(noCache: boolean): Promise<MCPServer[]> {
     }
 
     // 4. Fall back to bundled
-    console.warn('⚠ Using bundled registry. Run mcp-hub search --no-cache to refresh.');
+    console.warn('⚠ Using bundled registry. Run mcp-butler search --no-cache to refresh.');
     return readBundled();
   }
 }

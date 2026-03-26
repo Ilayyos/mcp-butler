@@ -7,7 +7,7 @@ export async function infoCommand(id: string, opts: { noCache: boolean }): Promi
   const server = servers.find((s) => s.id === id);
 
   if (!server) {
-    console.error(`✗ No server found with id "${id}". Run: mcp-hub list`);
+    console.error(`✗ No server found with id "${id}". Run: mcp-butler list`);
     process.exit(1);
   }
 

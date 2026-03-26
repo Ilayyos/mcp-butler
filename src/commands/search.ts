@@ -20,7 +20,7 @@ export async function searchCommand(query: string, opts: { noCache: boolean }): 
   }
 
   if (results.length === 0) {
-    console.log(`No results for "${query}". Try: mcp-hub list`);
+    console.log(`No results for "${query}". Try: mcp-butler list`);
     return;
   }
 

@@ -12,7 +12,7 @@ export async function listCommand(opts: { category?: string; noCache: boolean })
     );
     if (results.length === 0) {
       console.log(
-        `No servers found in category "${opts.category}". Run mcp-hub list to see all categories.`
+        `No servers found in category "${opts.category}". Run mcp-butler list to see all categories.`
       );
       return;
     }
