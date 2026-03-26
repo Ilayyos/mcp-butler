@@ -1,4 +1,4 @@
-import { describe, it, expect, afterEach } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import fs from 'fs';
 import path from 'path';
 import os from 'os';
@@ -59,6 +59,19 @@ describe('readConfig', () => {
     fs.writeFileSync(p, JSON.stringify(data), 'utf-8');
 
     expect(readConfig(p)).toEqual(data);
+    fs.unlinkSync(p);
+  });
+
+  it('calls process.exit(1) on malformed JSON', () => {
+    const p = tmpFile();
+    fs.writeFileSync(p, '{ not valid json', 'utf-8');
+
+    const exitSpy = vi.spyOn(process, 'exit').mockImplementation((() => {}) as any);
+
+    readConfig(p);
+
+    expect(exitSpy).toHaveBeenCalledWith(1);
+    exitSpy.mockRestore();
     fs.unlinkSync(p);
   });
 });
