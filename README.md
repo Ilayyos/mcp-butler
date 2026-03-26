@@ -1,27 +1,27 @@
-# mcp-get
+# mcp-forge
 
 > The missing package manager for MCP servers.
 
-[![npm version](https://img.shields.io/npm/v/mcp-get)](https://www.npmjs.com/package/mcp-get)
+[![npm version](https://img.shields.io/npm/v/mcp-forge)](https://www.npmjs.com/package/mcp-forge)
 [![Registry](https://img.shields.io/badge/servers-20%2B-blue)](registry/servers.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-`mcp-get` helps you discover and install [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers into Claude Desktop — no manual config editing required.
+`mcp-forge` helps you discover and install [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers into Claude Desktop — no manual config editing required.
 
 ## Quick Start
 
 ```bash
 # Search for servers
-npx mcp-get@latest search database
+npx mcp-forge@latest search database
 
 # Browse all servers
-npx mcp-get@latest list
+npx mcp-forge@latest list
 
 # See details for a server
-npx mcp-get@latest info postgres
+npx mcp-forge@latest info postgres
 
 # Install a server into Claude Desktop
-npx mcp-get@latest install postgres
+npx mcp-forge@latest install postgres
 ```
 
 ## Commands
