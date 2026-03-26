@@ -8,7 +8,7 @@ import { installCommand } from './commands/install';
 const program = new Command();
 
 program
-  .name('mcp-forge')
+  .name('mcp-butler')
   .description('Discover and install MCP servers for Claude Desktop')
   .version('0.1.0');
 

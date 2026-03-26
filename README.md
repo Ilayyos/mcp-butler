@@ -1,27 +1,27 @@
-# mcp-forge
+# mcp-butler
 
 > The missing package manager for MCP servers.
 
-[![npm version](https://img.shields.io/npm/v/mcp-forge)](https://www.npmjs.com/package/mcp-forge)
+[![npm version](https://img.shields.io/npm/v/mcp-butler)](https://www.npmjs.com/package/mcp-butler)
 [![Registry](https://img.shields.io/badge/servers-20%2B-blue)](registry/servers.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-`mcp-forge` helps you discover and install [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers into Claude Desktop — no manual config editing required.
+`mcp-butler` helps you discover and install [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers into Claude Desktop — no manual config editing required.
 
 ## Quick Start
 
 ```bash
 # Search for servers
-npx mcp-forge@latest search database
+npx mcp-butler@latest search database
 
 # Browse all servers
-npx mcp-forge@latest list
+npx mcp-butler@latest list
 
 # See details for a server
-npx mcp-forge@latest info postgres
+npx mcp-butler@latest info postgres
 
 # Install a server into Claude Desktop
-npx mcp-forge@latest install postgres
+npx mcp-butler@latest install postgres
 ```
 
 ## Commands
